@@ -1,0 +1,66 @@
+# Documentation available at https://expeditor.chef.io/docs/getting-started/
+---
+
+# Slack channel in Chef Software slack to send notifications about build failures, etc
+slack:
+  notify_channel:
+    - chef-found-notify
+    - releng-notify
+
+product_key:
+  - chef-foundation
+
+pipelines:
+  - omnibus/release:
+      env:
+        - IGNORE_CACHE: true
+  - omnibus/adhoc:
+      definition: .expeditor/release.omnibus.yml
+      env:
+        - ADHOC: true
+        - IGNORE_CACHE: true
+  - omnibus/adhoc-canary:
+      canary: true
+      definition: .expeditor/adhoc-canary.omnibus.yml
+      env:
+        - ADHOC: true
+        - IGNORE_CACHE: true
+
+github:
+  # This deletes the GitHub PR branch after successfully merged into the release branch
+  delete_branch_on_merge: true
+  # The tag format to use (e.g. v1.0.0)
+  minor_bump_labels:
+    - "Expeditor: Bump Version Minor"
+  # allow bumping the major release via label
+  major_bump_labels:
+    - "Expeditor: Bump Version Major"
+
+subscriptions:
+  # These actions are taken, in order they are specified, anytime a Pull Request is merged.
+  - workload: pull_request_merged:{{github_repo}}:{{release_branch}}:*
+    actions:
+      - built_in:bump_version:
+          ignore_labels:
+            - "Expeditor: Skip Version Bump"
+            - "Expeditor: Skip All"
+      - built_in:update_changelog:
+          ignore_labels:
+            - "Expeditor: Skip Changelog"
+            - "Expeditor: Skip All"
+      - trigger_pipeline:omnibus/release:
+          ignore_labels:
+            - "Expeditor: Skip Omnibus"
+            - "Expeditor: Skip All"
+          only_if: built_in:bump_version
+  - workload: project_promoted:{{agent_id}}:*
+    actions:
+      - built_in:promote_artifactory_artifact
+  - workload: artifact_published:stable:omnibus-toolchain:*
+    actions:
+      - built_in:rollover_changelog
+      - built_in:notify_chefio_slack_channels
+pipelines:
+  - verify:
+      description: Pull Request validation tests
+      public: true
