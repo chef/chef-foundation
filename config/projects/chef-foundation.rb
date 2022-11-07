@@ -15,18 +15,18 @@
 #
 
 name "chef-foundation"
-friendly_name "Chef Infra Client"
+friendly_name "Chef Foundation"
 maintainer "Chef Software, Inc. <maintainers@chef.io>"
 homepage "https://www.chef.io"
-license "Chef EULA"
-license_file "CHEF-EULA.md"
+license "Apache-2.0"
+license_file "LICENSE"
 
 build_iteration 1
 # Do not use __FILE__ after this point, use current_file. If you use __FILE__
 # after this point, any dependent defs (ex: angrychef) that use instance_eval
 # will fail to work correctly.
 current_file ||= __FILE__
-version_file = File.expand_path("../../../../VERSION", current_file)
+version_file = File.expand_path("../../../VERSION", current_file)
 build_version IO.read(version_file).strip
 
 if windows?
@@ -42,7 +42,7 @@ end
 # override :chef, version: "local_source"
 
 # Load dynamically updated overrides
-overrides_path = File.expand_path("../../../../omnibus_overrides.rb", current_file)
+overrides_path = File.expand_path("../../../omnibus_overrides.rb", current_file)
 instance_eval(IO.read(overrides_path), overrides_path)
 
 dependency "preparation"
@@ -73,9 +73,6 @@ dependency "openssl-customization"
 dependency "ruby-msys2-devkit" if windows?
 
 dependency "ruby-cleanup"
-
-# further gem cleanup other projects might not yet want to use
-dependency "more-ruby-cleanup"
 
 package :rpm do
   signing_passphrase ENV["OMNIBUS_RPM_SIGNING_PASSPHRASE"]
