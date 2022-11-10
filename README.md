@@ -1,4 +1,5 @@
 
+
 # Chef Foundation
 
 Chef Foundation creates a native platform package that contains the required dependencies used for building the Chef Omnibus packages.
