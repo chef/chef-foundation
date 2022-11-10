@@ -2,6 +2,7 @@
 ---
 project:
   alias: chef-foundation
+
 # Slack channel in Chef Software slack to send notifications about build failures, etc
 slack:
   notify_channel:
@@ -12,9 +13,7 @@ product_key:
   - chef-foundation
 
 pipelines:
-  - verify:
-      description: Pull Request validation tests
-      public: true
+  - verify
   - omnibus/release:
       env:
         - IGNORE_CACHE: true
