@@ -414,7 +414,8 @@ GEM
     zhexdump (0.0.2)
 
 PLATFORMS
-  x86_64-linux
+  ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
   artifactory
