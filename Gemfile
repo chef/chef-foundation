@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "omnibus", github: ENV.fetch("OMNIBUS_GITHUB_REPO", "chef/omnibus"), branch: ENV.fetch("OMNIBUS_GITHUB_BRANCH", "main")
+gem "omnibus", "~> 9.0.11"
 
-gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), branch: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_BRANCH", "main")
+gem "omnibus-software", "~> 22.11"
 
 gem "artifactory"
 
@@ -22,4 +22,8 @@ group :development do
   gem "test-kitchen", ">= 1.23"
   gem "kitchen-vagrant", ">= 1.3.1"
   gem "winrm-fs", "~> 1.0"
+end
+
+group :test do
+  gem "rake"
 end

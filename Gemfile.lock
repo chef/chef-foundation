@@ -1,31 +1,3 @@
-GIT
-  remote: https://github.com/chef/omnibus-software.git
-  revision: dedcf8598a7bfb1022740b8f75cab56e4a30e264
-  branch: main
-  specs:
-    omnibus-software (22.11.248)
-      omnibus (>= 9.0.0)
-
-GIT
-  remote: https://github.com/chef/omnibus.git
-  revision: 52b6d2e08bc2c90592b99da41a1728fb1629f673
-  branch: main
-  specs:
-    omnibus (9.0.12)
-      aws-sdk-s3 (~> 1.116.0)
-      chef-cleanroom (~> 1.0)
-      chef-utils (>= 15.4)
-      contracts (>= 0.16.0, < 0.17.0)
-      ffi-yajl (~> 2.2)
-      license_scout (~> 1.0)
-      mixlib-shellout (>= 2.0, < 4.0)
-      mixlib-versioning
-      ohai (>= 16, < 19)
-      pedump
-      rexml (~> 3.2)
-      ruby-progressbar (~> 1.7)
-      thor (>= 0.18, < 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,8 +7,8 @@ GEM
     ast (2.4.2)
     awesome_print (1.9.2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.662.0)
-    aws-sdk-core (3.167.0)
+    aws-partitions (1.663.0)
+    aws-sdk-core (3.168.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.5)
@@ -48,7 +20,7 @@ GEM
       aws-sdk-core (~> 3, >= 3.127.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)
-    aws-sdk-secretsmanager (1.67.0)
+    aws-sdk-secretsmanager (1.68.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
     aws-sigv4 (1.5.2)
@@ -266,6 +238,22 @@ GEM
       plist (~> 3.1)
       train-core
       wmi-lite (~> 1.0)
+    omnibus (9.0.12)
+      aws-sdk-s3 (~> 1.116.0)
+      chef-cleanroom (~> 1.0)
+      chef-utils (>= 15.4)
+      contracts (>= 0.16.0, < 0.17.0)
+      ffi-yajl (~> 2.2)
+      license_scout (~> 1.0)
+      mixlib-shellout (>= 2.0, < 4.0)
+      mixlib-versioning
+      ohai (>= 16, < 19)
+      pedump
+      rexml (~> 3.2)
+      ruby-progressbar (~> 1.7)
+      thor (>= 0.18, < 2.0)
+    omnibus-software (22.11.239)
+      omnibus (>= 9.0.0)
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
@@ -286,6 +274,7 @@ GEM
     public_suffix (5.0.0)
     rack (2.2.4)
     rainbow (3.1.1)
+    rake (13.0.6)
     regexp_parser (2.6.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -425,18 +414,19 @@ GEM
     zhexdump (0.0.2)
 
 PLATFORMS
-  x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   artifactory
   berkshelf (>= 8.0)
   chefstyle
   kitchen-vagrant (>= 1.3.1)
-  omnibus!
-  omnibus-software!
+  omnibus (~> 9.0.11)
+  omnibus-software (~> 22.11)
   pedump
+  rake
   test-kitchen (>= 1.23)
   winrm-fs (~> 1.0)
 
 BUNDLED WITH
-   2.3.18
+   2.3.7
