@@ -1,5 +1,6 @@
 ---
 project-name: chef-foundation
+install-dir: "/opt/chef"
 config: omnibus.rb
 test-path: omnibus-test.sh
 test-path-windows: omnibus-test.ps1
