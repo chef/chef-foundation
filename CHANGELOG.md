@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.7 -->
-## [0.1.7](https://github.com/chef/chef-foundation/tree/0.1.7) (2022-11-17)
+<!-- latest_release 0.1.8 -->
+## [0.1.8](https://github.com/chef/chef-foundation/tree/0.1.8) (2022-11-21)
 
 #### Merged Pull Requests
-- Add openssl customization files [#13](https://github.com/chef/chef-foundation/pull/13) ([gcs-devel](https://github.com/gcs-devel))
+- Omit the ChefLogDllPath from foundation builds [#14](https://github.com/chef/chef-foundation/pull/14) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Omit the ChefLogDllPath from foundation builds [#14](https://github.com/chef/chef-foundation/pull/14) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.8 -->
 - Add openssl customization files [#13](https://github.com/chef/chef-foundation/pull/13) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.7 -->
 - Use lockfile from chef/chef/omnibus [#12](https://github.com/chef/chef-foundation/pull/12) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.6 -->
 - Update platforms in Gemfile.lock [#11](https://github.com/chef/chef-foundation/pull/11) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.5 -->
