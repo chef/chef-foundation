@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.9 -->
-## [0.1.9](https://github.com/chef/chef-foundation/tree/0.1.9) (2022-11-21)
+<!-- latest_release 0.1.10 -->
+## [0.1.10](https://github.com/chef/chef-foundation/tree/0.1.10) (2022-11-22)
 
 #### Merged Pull Requests
-- Skip windows until the ami is fixed [#15](https://github.com/chef/chef-foundation/pull/15) ([gcs-devel](https://github.com/gcs-devel))
+- Build only containerized platforms for now [#16](https://github.com/chef/chef-foundation/pull/16) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Build only containerized platforms for now [#16](https://github.com/chef/chef-foundation/pull/16) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.10 -->
 - Skip windows until the ami is fixed [#15](https://github.com/chef/chef-foundation/pull/15) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.9 -->
 - Omit the ChefLogDllPath from foundation builds [#14](https://github.com/chef/chef-foundation/pull/14) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.8 -->
 - Add openssl customization files [#13](https://github.com/chef/chef-foundation/pull/13) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.7 -->
