@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.12 -->
-## [0.1.12](https://github.com/chef/chef-foundation/tree/0.1.12) (2022-11-22)
+<!-- latest_release 0.1.13 -->
+## [0.1.13](https://github.com/chef/chef-foundation/tree/0.1.13) (2022-11-23)
 
 #### Merged Pull Requests
-- Copied resources from chef/chef and modified WIX installer config [#18](https://github.com/chef/chef-foundation/pull/18) ([gcs-devel](https://github.com/gcs-devel))
+- Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.13 -->
 - Copied resources from chef/chef and modified WIX installer config [#18](https://github.com/chef/chef-foundation/pull/18) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.12 -->
 - Only build windows [#17](https://github.com/chef/chef-foundation/pull/17) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.11 -->
 - Build only containerized platforms for now [#16](https://github.com/chef/chef-foundation/pull/16) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.10 -->
