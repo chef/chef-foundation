@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.13 -->
-## [0.1.13](https://github.com/chef/chef-foundation/tree/0.1.13) (2022-11-23)
+<!-- latest_release 0.1.14 -->
+## [0.1.14](https://github.com/chef/chef-foundation/tree/0.1.14) (2022-11-24)
 
 #### Merged Pull Requests
-- Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel))
+- Add the preinst package script [#20](https://github.com/chef/chef-foundation/pull/20) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Add the preinst package script [#20](https://github.com/chef/chef-foundation/pull/20) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.14 -->
 - Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.13 -->
 - Copied resources from chef/chef and modified WIX installer config [#18](https://github.com/chef/chef-foundation/pull/18) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.12 -->
 - Only build windows [#17](https://github.com/chef/chef-foundation/pull/17) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.11 -->
