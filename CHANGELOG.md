@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.15 -->
-## [0.1.15](https://github.com/chef/chef-foundation/tree/0.1.15) (2022-11-25)
+<!-- latest_release 0.1.16 -->
+## [0.1.16](https://github.com/chef/chef-foundation/tree/0.1.16) (2022-11-25)
 
 #### Merged Pull Requests
-- Use test version of omnibus-buildkite-plugin [#21](https://github.com/chef/chef-foundation/pull/21) ([gcs-devel](https://github.com/gcs-devel))
+- Use test version of omnibus-buildkite-plugin [#22](https://github.com/chef/chef-foundation/pull/22) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Use test version of omnibus-buildkite-plugin [#22](https://github.com/chef/chef-foundation/pull/22) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.16 -->
 - Use test version of omnibus-buildkite-plugin [#21](https://github.com/chef/chef-foundation/pull/21) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.15 -->
 - Add the preinst package script [#20](https://github.com/chef/chef-foundation/pull/20) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.14 -->
 - Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.13 -->
