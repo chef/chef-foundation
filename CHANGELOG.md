@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.14 -->
-## [0.1.14](https://github.com/chef/chef-foundation/tree/0.1.14) (2022-11-24)
+<!-- latest_release 0.1.15 -->
+## [0.1.15](https://github.com/chef/chef-foundation/tree/0.1.15) (2022-11-25)
 
 #### Merged Pull Requests
-- Add the preinst package script [#20](https://github.com/chef/chef-foundation/pull/20) ([gcs-devel](https://github.com/gcs-devel))
+- Use test version of omnibus-buildkite-plugin [#21](https://github.com/chef/chef-foundation/pull/21) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Use test version of omnibus-buildkite-plugin [#21](https://github.com/chef/chef-foundation/pull/21) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.15 -->
 - Add the preinst package script [#20](https://github.com/chef/chef-foundation/pull/20) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.14 -->
 - Skip windows again [#19](https://github.com/chef/chef-foundation/pull/19) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.13 -->
 - Copied resources from chef/chef and modified WIX installer config [#18](https://github.com/chef/chef-foundation/pull/18) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.12 -->
