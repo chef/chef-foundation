@@ -26,7 +26,7 @@
     <PropertyRef Id="WIX_ACCOUNT_ADMINISTRATORS" />
     <PropertyRef Id="WIX_ACCOUNT_USERS" />
 
-    <Media Id="1" Cabinet="ChefClient.cab" EmbedCab="yes" CompressionLevel="high" />
+    <Media Id="1" Cabinet="ChefFoundation.cab" EmbedCab="yes" CompressionLevel="high" />
 
     <!--
     Take advantage of Windows Installer 5.0 feature (if available) to disable
@@ -89,11 +89,11 @@
 
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="WindowsVolume">
-        <Directory Id="CONFIGLOCATION" Name="chef">
+<!--         <Directory Id="CONFIGLOCATION" Name="chef">
           <Component Id="CONFIGLOCATIONDIR" Guid="{F66F6394-51A4-4C5D-908B-E55584473436}" >
             <CreateFolder Directory="CONFIGLOCATION" />
           </Component>
-        </Directory>
+        </Directory> -->
         <Directory Id="INSTALLLOCATION" Name="opscode">
           <Directory Id="PROJECTLOCATION" Name="$(var.ProjectLocationDir)" >
             <Component Id="ProjectLocationPermissions" Guid="{75f50556-efae-4ede-beb2-a2c9b1a4d43f}" >
@@ -107,12 +107,12 @@
                 <Permission User="[WIX_ACCOUNT_USERS]" GenericRead="yes" GenericExecute="yes"/>
               </CreateFolder>
             </Component>
-            <Directory Id="PROJECTLOCATIONBIN" Name="bin" >
+<!--             <Directory Id="PROJECTLOCATIONBIN" Name="bin" >
               <Component Id="ChefClientPath" Guid="{7F663F88-55A2-4E20-82BF-8BD2E60BB83A}" >
                 <Environment Id="ClientPathEnvironment"
                              Name="PATH" Action="set" Part="last" System="yes" Value="[PROJECTLOCATIONBIN]" />
               </Component>
-            </Directory>
+            </Directory> -->
             <Directory Id="PSMODULES" Name="modules" >
               <Component Id="ChefPSModulePath" Guid="{357DA654-F02E-430A-9EA6-A10554E3EF38}" >
                 <Environment Id="ChefPSModulePathEnvironment"
@@ -121,12 +121,12 @@
             </Directory>
             <Directory Id="EMBEDDED" Name="embedded" >
               <Directory Id="EMBEDDEDBIN" Name="bin" >
-                <Component Id="ChefClientLog" Guid="{8e492d59-3a0c-43fd-b889-e35dfa33da91}">
+<!--                 <Component Id="ChefClientLog" Guid="{8e492d59-3a0c-43fd-b889-e35dfa33da91}">
                     <util:EventSource xmlns:util="http://schemas.microsoft.com/wix/UtilExtension"
                         Name="Chef" Log="Application"
                         EventMessageFile="[PROJECTLOCATION]$(var.ChefLogDllPath)"
                         />
-                </Component>
+                </Component> -->
               </Directory>
             </Directory>
           </Directory>
@@ -145,12 +145,12 @@
     </Directory>
 
     <!-- Set the components defined in our fragment files that will be used for our feature  -->
-    <Feature Id="ChefClientFeature" Title="!(loc.FeatureMainName)" Absent="disallow" AllowAdvertise="no" Level="1" ConfigurableDirectory="INSTALLLOCATION">
+    <Feature Id="ChefFoundationFeature" Title="!(loc.FeatureMainName)" Absent="disallow" AllowAdvertise="no" Level="1" ConfigurableDirectory="INSTALLLOCATION">
       <ComponentGroupRef Id="ProjectDir" />
       <ComponentRef Id="ProjectLocationPermissions" />
-      <ComponentRef Id="ChefClientPath" />
-      <ComponentRef Id="CONFIGLOCATIONDIR" />
-      <ComponentRef Id="ChefClientLog" />
+      <!-- <ComponentRef Id="ChefClientPath" /> -->
+      <!-- <ComponentRef Id="CONFIGLOCATIONDIR" /> -->
+      <!-- <ComponentRef Id="ChefClientLog" /> -->
     </Feature>
 
     <Feature Id="ChefPSModuleFeature" Title="!(loc.FeaturePSModuleName)" Level="1000" AllowAdvertise="no">
@@ -167,14 +167,6 @@
     </Feature>
 
     <!--
-      TODO:
-
-      * create initial Client config? ie C:\chef\client.rb?
-      * optionally install extra tools?  ie git?
-
-    -->
-
-    <!--
       UI Stuff
     -->
     <Icon Id="oc.ico" SourceFile="Resources\assets\oc_16x16.ico"/>
@@ -182,8 +174,8 @@
     <Property Id="ARPHELPLINK" Value="https://www.chef.io/support/" />
     <Property Id="WIXUI_INSTALLDIR" Value="INSTALLLOCATION" />
 
-    <UIRef Id="ChefClientUI_InstallDir"/>
-    <UI Id="ChefClientUI_InstallDir">
+    <UIRef Id="ChefFoundationUI_InstallDir"/>
+    <UI Id="ChefFoundationUI_InstallDir">
       <!-- WixUI_FeatureTree module's code embedded and modified here as per the requirement -->
       <TextStyle Id="WixUI_Font_Normal_White" FaceName="Tahoma" Size="8" Red="255" Green="255" Blue="255" />
       <TextStyle Id="WixUI_Font_Bigger_White" FaceName="Tahoma" Size="12" Red="255" Green="255" Blue="255" />

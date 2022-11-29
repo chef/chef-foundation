@@ -34,7 +34,7 @@ if windows?
   #       Native gems will use gcc which will barf on files with spaces,
   #       which is only fixable if everyone in the world fixes their Makefiles
   install_dir  "#{default_root}/opscode/chef"
-  package_name "chef-client"
+  package_name name
 else
   install_dir "#{default_root}/chef"
 end
@@ -110,7 +110,7 @@ end
 compress :dmg
 
 msi_upgrade_code = "D607A85C-BDFA-4F08-83ED-2ECB4DCD6BC5"
-project_location_dir = name
+project_location_dir = "chef"
 package :msi do
   fast_msi true
   upgrade_code msi_upgrade_code
