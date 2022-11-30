@@ -17,20 +17,20 @@ pipelines:
   - omnibus/release:
       env:
         - IGNORE_CACHE: true
-        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 018c23cb6cab5ab4cf8e7a5608732234b12fcbe2
+        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 8eefb7d52f7ae5ec1cda56c6269fa764e3075199
   - omnibus/adhoc:
       definition: .expeditor/release.omnibus.yml
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
-        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 018c23cb6cab5ab4cf8e7a5608732234b12fcbe2
+        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 8eefb7d52f7ae5ec1cda56c6269fa764e3075199
   - omnibus/adhoc-canary:
       canary: true
       definition: .expeditor/adhoc-canary.omnibus.yml
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
-        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 018c23cb6cab5ab4cf8e7a5608732234b12fcbe2
+        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 8eefb7d52f7ae5ec1cda56c6269fa764e3075199
 
 github:
   # This deletes the GitHub PR branch after successfully merged into the release branch
