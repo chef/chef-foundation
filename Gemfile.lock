@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: ee6e6709a1d4613ae74ee5b8cf1098c8aba2db1e
+  revision: a753f0b3874653760693af86fe76f0391493e1da
   branch: gcs-devel/customize-zip-command
   specs:
     omnibus (9.0.12)
