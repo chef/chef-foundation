@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.19 -->
-## [0.1.19](https://github.com/chef/chef-foundation/tree/0.1.19) (2022-11-30)
+<!-- latest_release 0.1.20 -->
+## [0.1.20](https://github.com/chef/chef-foundation/tree/0.1.20) (2022-11-30)
 
 #### Merged Pull Requests
-- Renamed directory [#25](https://github.com/chef/chef-foundation/pull/25) ([gcs-devel](https://github.com/gcs-devel))
+- Use version that creates directories [#27](https://github.com/chef/chef-foundation/pull/27) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Use version that creates directories [#27](https://github.com/chef/chef-foundation/pull/27) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.20 -->
 - Renamed directory [#25](https://github.com/chef/chef-foundation/pull/25) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.19 -->
 - Fix windows [#24](https://github.com/chef/chef-foundation/pull/24) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.18 -->
 - Set project location to chef-foundation [#23](https://github.com/chef/chef-foundation/pull/23) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.17 -->
