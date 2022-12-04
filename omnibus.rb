@@ -32,6 +32,7 @@ env_omnibus_windows_arch = :x86 unless %w{x86 x64}.include?(env_omnibus_windows_
 windows_arch env_omnibus_windows_arch
 
 use_git_caching true
+use_internal_sources ENV.fetch("OMNIBUS_USE_INTERNAL_SOURCES", false)
 
 # Enable S3 asset caching
 # ------------------------------
