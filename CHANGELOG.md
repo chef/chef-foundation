@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.21 -->
-## [0.1.21](https://github.com/chef/chef-foundation/tree/0.1.21) (2022-12-04)
+<!-- latest_release 0.1.22 -->
+## [0.1.22](https://github.com/chef/chef-foundation/tree/0.1.22) (2022-12-04)
 
 #### Merged Pull Requests
-- Gcs devel/build from internal src bs 109 [#28](https://github.com/chef/chef-foundation/pull/28) ([gcs-devel](https://github.com/gcs-devel))
+- Disable internal sources until artifactory token is provided. [#29](https://github.com/chef/chef-foundation/pull/29) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Disable internal sources until artifactory token is provided. [#29](https://github.com/chef/chef-foundation/pull/29) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.22 -->
 - Gcs devel/build from internal src bs 109 [#28](https://github.com/chef/chef-foundation/pull/28) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.21 -->
 - Use version that creates directories [#27](https://github.com/chef/chef-foundation/pull/27) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.20 -->
 - Renamed directory [#25](https://github.com/chef/chef-foundation/pull/25) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.19 -->
