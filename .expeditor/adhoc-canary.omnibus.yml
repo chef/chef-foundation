@@ -4,6 +4,13 @@ install-dir: "/opt/chef"
 config: omnibus.rb
 test-path: omnibus-test.sh
 test-path-windows: omnibus-test.ps1
+fips-platforms:
+  - el-*-x86_64
+  - el-*-ppc64*
+  - ubuntu-*-x86_64
+  - windows-*
+skip-artifactory-platforms:
+  - freebsd-13-amd64
 windows-64-msystem: UCRT64
 builder-to-testers-map:
   aix-7.1-powerpc:
