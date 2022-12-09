@@ -1,16 +1,19 @@
 # Changelog
 
-<!-- latest_release 0.1.20 -->
-## [0.1.20](https://github.com/chef/chef-foundation/tree/0.1.20) (2022-11-30)
+<!-- latest_release 0.1.23 -->
+## [0.1.23](https://github.com/chef/chef-foundation/tree/0.1.23) (2022-12-08)
 
 #### Merged Pull Requests
-- Use version that creates directories [#27](https://github.com/chef/chef-foundation/pull/27) ([gcs-devel](https://github.com/gcs-devel))
+- Use omnibus on development branch. [#30](https://github.com/chef/chef-foundation/pull/30) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Use omnibus on development branch. [#30](https://github.com/chef/chef-foundation/pull/30) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.23 -->
+- Disable internal sources until artifactory token is provided. [#29](https://github.com/chef/chef-foundation/pull/29) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.22 -->
+- Gcs devel/build from internal src bs 109 [#28](https://github.com/chef/chef-foundation/pull/28) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.21 -->
 - Use version that creates directories [#27](https://github.com/chef/chef-foundation/pull/27) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.20 -->
 - Renamed directory [#25](https://github.com/chef/chef-foundation/pull/25) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.19 -->
 - Fix windows [#24](https://github.com/chef/chef-foundation/pull/24) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.18 -->
