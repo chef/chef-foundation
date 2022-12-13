@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 0.1.24 -->
-## [0.1.24](https://github.com/chef/chef-foundation/tree/0.1.24) (2022-12-09)
+<!-- latest_release 0.1.25 -->
+## [0.1.25](https://github.com/chef/chef-foundation/tree/0.1.25) (2022-12-13)
 
 #### Merged Pull Requests
-- Remove wix folder create [#31](https://github.com/chef/chef-foundation/pull/31) ([gcs-devel](https://github.com/gcs-devel))
+- Use artifactory rubygems proxy [#32](https://github.com/chef/chef-foundation/pull/32) ([gcs-devel](https://github.com/gcs-devel))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Use artifactory rubygems proxy [#32](https://github.com/chef/chef-foundation/pull/32) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.25 -->
 - Remove wix folder create [#31](https://github.com/chef/chef-foundation/pull/31) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.24 -->
 - Use omnibus on development branch. [#30](https://github.com/chef/chef-foundation/pull/30) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.23 -->
 - Disable internal sources until artifactory token is provided. [#29](https://github.com/chef/chef-foundation/pull/29) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.22 -->
