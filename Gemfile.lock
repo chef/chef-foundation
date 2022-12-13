@@ -19,7 +19,6 @@ GIT
       thor (>= 0.18, < 2.0)
 
 GEM
-  remote: https://rubygems.org/
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)

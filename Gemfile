@@ -1,4 +1,8 @@
-source "https://rubygems.org"
+if ENV.fetch("OMNIBUS_USE_INTERNAL_SOURCES", false)
+  source "https://artifactory-internal.ps.chef.co/artifactory/rubygems-proxy"
+else
+  source "https://rubygems.org"
+end
 
 # gem "omnibus", "~> 9.0.11"
 gem "omnibus", github: "chef/omnibus", branch: "gcs-devel/customize-zip-command"
