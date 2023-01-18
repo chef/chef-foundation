@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "omnibus", "~> 9.0"
 
-gem "omnibus-software", "~> 22.11"
+gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), branch: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_BRANCH", "main")
 
 gem "artifactory"
 
