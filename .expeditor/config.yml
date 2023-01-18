@@ -18,12 +18,14 @@ pipelines:
       env:
         - IGNORE_CACHE: true
         - OMNIBUS_USE_INTERNAL_SOURCES: true
+        - IGNORE_ARTIFACTORY_RUBY_PROXY: true
   - omnibus/adhoc:
       definition: .expeditor/release.omnibus.yml
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
         - OMNIBUS_USE_INTERNAL_SOURCES: true
+        - IGNORE_ARTIFACTORY_RUBY_PROXY: true
   - omnibus/adhoc-canary:
       canary: true
       definition: .expeditor/adhoc-canary.omnibus.yml
