@@ -45,10 +45,7 @@ instance_eval(IO.read(overrides_path), overrides_path)
 
 dependency "preparation"
 
-# THIS CAME FROM OMNIBUS-SOFTWARE CHEF.RB
-dependency "ruby"
-dependency "libarchive" # for archive resource
-
+#
 # addons which require omnibus software defns (not direct deps of chef itself - RFC-063)
 #
 dependency "nokogiri" # (nokogiri cannot go in the Gemfile, see wall of text in the software defn)
@@ -61,7 +58,11 @@ dependency "version-manifest"
 dependency "openssl-customization"
 
 # devkit needs to come dead last these days so we do not use it to compile any gems
-dependency "ruby-msys2-devkit" if windows?
+if windows?
+  override :"ruby-windows-devkit", version: "4.5.2-20111229-1559" if windows_arch_i386?
+  dependency "ruby-windows-devkit"
+  dependency "ruby-windows-devkit-bash"
+end
 
 dependency "ruby-cleanup"
 
@@ -91,13 +92,13 @@ package :msi do
   upgrade_code msi_upgrade_code
   wix_candle_extension "WixUtilExtension"
   wix_light_extension "WixUtilExtension"
+  # Update this if you start getting a "SignTool Error: No certificates were found that met all the given criteria." error in adhoc builds
   signing_identity "13B510D1CF1B3467856A064F1BEA12D0884D2528", machine_store: true
-  parameters ProjectLocationDir: project_location_dir
+  parameters ChefLogDllPath: windows_safe_path(gem_path("chef-[0-9]*-mingw32/ext/win32-eventlog/chef-log.dll")),
+             ProjectLocationDir: project_location_dir
 end
 
 # We don't support appx builds, and they eat a lot of time.
 package :appx do
   skip_packager true
 end
-
-runtime_dependency "coreutils" if rhel?
