@@ -470,7 +470,11 @@ GEM
     zhexdump (0.0.2)
 
 PLATFORMS
+  ruby
+  x64-mingw
   x64-mingw-ucrt
+  x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   artifactory
@@ -485,4 +489,4 @@ DEPENDENCIES
   winrm-fs (~> 1.0)
 
 BUNDLED WITH
-   2.3.26
+   2.3.7
