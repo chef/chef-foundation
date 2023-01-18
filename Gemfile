@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-# gem "omnibus", "~> 9.0.11"
-gem "omnibus", github: "chef/omnibus", branch: "gcs-devel/customize-zip-command"
+gem "omnibus", "~> 9.0"
 
 gem "omnibus-software", "~> 22.11"
 
