@@ -4,7 +4,7 @@ Package all of chef's omnibus dependencies for Chef 16 ahead of time so that whe
 
 ## Motivation
 
-With the continious releases and updates to [Chef](https://github.com/chef/chef) and [Chef Foundation](https://github.com/chef/chef-foundation), the goal is to provide continued support for previous major versions of Chef Foundation. This document outlines the steps that were taken to backport and maintain Chef major version 16, while being concious of the CVE's present and using appropiate dependency versions to mitigate them and providing continious support when new CVE's are discovered. 
+With the continuous releases and updates to [Chef](https://github.com/chef/chef) and [Chef Foundation](https://github.com/chef/chef-foundation), the goal is to provide long-term support for 2 previous major versions of Chef Foundation. This document outlines the steps that were taken to backport and maintain Chef major version 16, while being conscious of the CVE's present and using appropriate dependency versions to mitigate them and providing continuous support when new CVE's are discovered. 
 
 ## Backport Steps Taken
 
@@ -17,12 +17,6 @@ The following steps were performed to backport the `main` branch of chef-foundat
 		* See commits with changes [here](https://github.com/chef/chef-foundation/commit/16927b336090fc10ed51fe38a75744ce5811cf2d) and [here](https://github.com/chef/chef-foundation/commit/5b8071717889c51f1a82e41e42748df0005e2aa9)
 
 * Adding the changes in [this PR](https://github.com/chef/chef-foundation/pull/34) to both the `main` branch as well as the `chef-16` branch so that the supported versions will build when changes are added to them
-
-* Update the `Gemfile` to have `omnibus` and `omnibus-software` gems to pull from their respective repo's `main` branch and run a `bundle install` to update the `Gemfile.lock` with the new sources, as well as any extra dependency updates needed.
-
-* Remove the use of internal resouces from the internal artifactory repository and pull from the rubygems repo. 
-
-* Disable S3 caching for builds, this causes errors to persist while building. 
 
 * Update the available platforms `.expeditor/adhoc-canary.omnibus.yml` (or similar omnibus pipeline yaml) to align with the test platforms supported by Chef 16. [See here for reference list](https://github.com/chef/chef/blob/main/.expeditor/adhoc-canary.omnibus.yml).
 
