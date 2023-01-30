@@ -76,9 +76,8 @@ package :deb do
   compression_type :xz
 end
 
-proj_to_work_around_cleanroom = self # wat voodoo hackery is this?
 package :pkg do
-  identifier "com.getchef.pkg.#{proj_to_work_around_cleanroom.name}"
+  identifier "com.getchef.pkg.chef"
   signing_identity "Chef Software, Inc. (EU3VF8YLX2)"
 end
 compress :dmg
