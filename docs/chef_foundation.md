@@ -27,8 +27,7 @@ Chef foundation will also set all the overrides currently defined in `omnibus_ov
 The initial version of Chef Foundation will be built and installed as an omnibus package on a host. As defined above
 this package will be used for testing the latest version of Chef in the pipeline along with being included as a base
 package inside the Chef omnibus package. The key point here is that during the Chef omnibus packaging stage, we will
-require chef-foundation be installed prior running the omnibus commands. For more information on thsi process please see
-the [Hermetic Builds](./hermetic_builds.md) section of this documentation.
+require chef-foundation be installed prior running the omnibus commands.
 
 In future iterations Chef Foundation may want to be packaged in a way that can be used as a first class omnibus
 dependency, rather than a local source. This is out of scope currently as it will require changes the omnibus. The
