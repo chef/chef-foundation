@@ -24,6 +24,7 @@ pipelines:
         - ADHOC: true
         - IGNORE_CACHE: true
         - OMNIBUS_USE_INTERNAL_SOURCES: true
+        - ARTIFACTORY_REPO_URL: "https://artifactory-internal.ps.chef.co/artifactory/omnibus-software-local"
   - omnibus/adhoc-canary:
       canary: true
       definition: .expeditor/adhoc-canary.omnibus.yml
@@ -31,6 +32,7 @@ pipelines:
         - ADHOC: true
         - IGNORE_CACHE: true
         - OMNIBUS_USE_INTERNAL_SOURCES: true
+        - ARTIFACTORY_REPO_URL: "https://artifactory-internal.ps.chef.co/artifactory/omnibus-software-local"
 
 github:
   # This deletes the GitHub PR branch after successfully merged into the release branch
