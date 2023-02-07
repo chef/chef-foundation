@@ -8,10 +8,10 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: c725b4b97c604c863e00097140f306aa916fc9f3
-  branch: justingruber/debugging-branch-do-not-merge
+  revision: 72753d73f0984ba8fc32964072cfba9a7b6f495f
+  branch: main
   specs:
-    omnibus (9.0.14)
+    omnibus (9.0.15)
       aws-sdk-s3 (~> 1.116.0)
       chef-cleanroom (~> 1.0)
       chef-utils (>= 15.4)
