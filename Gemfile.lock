@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: 952c4b715b394d73a7d256f840e0675be2ddfcd3
+  revision: c725b4b97c604c863e00097140f306aa916fc9f3
   branch: justingruber/debugging-branch-do-not-merge
   specs:
     omnibus (9.0.14)
