@@ -4,4 +4,4 @@ set -eu
 
 [[ "$BUILDKITE_PIPELINE_NAME" =~ omnibus/adhoc(-canary)?$ ]] || exit 0
 
-export ARTIFACTORY_REPO_URL = "https://artifactory-internal.ps.chef.co/artifactory/omnibus-software-local"
+export ARTIFACTORY_REPO_URL="https://artifactory-internal.ps.chef.co/artifactory/omnibus-software-local"
