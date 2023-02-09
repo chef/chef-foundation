@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "omnibus", github: ENV.fetch("OMNIBUS_GITHUB_REPO", "chef/omnibus"), branch: ENV.fetch("OMNIBUS_GITHUB_BRANCH", "main")
+gem "omnibus", github: ENV.fetch("OMNIBUS_GITHUB_REPO", "chef/omnibus"), ref: "5bc091ab3ed4ab002ef85dad3923914c25bb3dcd"
 
-gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), branch: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_BRANCH", "main")
+gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), ref: "a63bd71702f5bf350ca17ee0726ac36fc418d54e"
 
 gem "artifactory"
 
@@ -16,7 +16,7 @@ gem "chefstyle"
 # by running `bundle config set --local without development && bundle install` to speed up build times.
 group :development do
   # Use Berkshelf for resolving cookbook dependencies
-  gem "berkshelf", ">= 7.0"
+  gem "berkshelf", "~> 7.0"
 
   # Use Test Kitchen with Vagrant for converging the build environment
   gem "test-kitchen", ">= 1.23"
