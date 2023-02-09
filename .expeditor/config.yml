@@ -25,6 +25,7 @@ pipelines:
         - ADHOC: true
         - IGNORE_CACHE: true
         - OMNIBUS_USE_INTERNAL_SOURCES: false
+        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 852c8f81fb6dd12ff3471a8d825ec20a1168c4c4
         - IGNORE_ARTIFACTORY_RUBY_PROXY: true
   - omnibus/adhoc-canary:
       canary: true
