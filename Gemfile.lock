@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 6a13693685cc7ab4f8d3592c80ad612cc8c6f1ac
-  branch: main
+  revision: 3293a2449f0befbe3f0cf5f119a9106844d4205c
+  branch: tp/infc-373-disable-dynamic
   specs:
-    omnibus-software (23.1.268)
+    omnibus-software (23.2.281)
       omnibus (>= 9.0.0)
 
 GIT
