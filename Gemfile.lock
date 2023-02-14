@@ -8,8 +8,8 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: 0a0e681537efe1cc16da7fd36f5d7740ad9e7f6b
-  branch: justingruber/internal-source-on-s3-cache-fail
+  revision: 72753d73f0984ba8fc32964072cfba9a7b6f495f
+  branch: main
   specs:
     omnibus (9.0.15)
       aws-sdk-s3 (~> 1.116.0)
