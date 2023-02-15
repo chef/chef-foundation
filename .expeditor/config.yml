@@ -11,7 +11,15 @@ slack:
 
 product_key:
   - chef-foundation
-
+  
+release_branches:
+  - main:
+      version_constraint: "3.*"
+  - 2-stable:
+      version_constraint: "2.*"
+  - 1-stable:
+      version_constraint: "1.*"
+      
 pipelines:
   - verify
   - omnibus/release:
