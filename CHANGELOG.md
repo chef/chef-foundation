@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.0.3 -->
-## [3.0.3](https://github.com/chef/chef-foundation/tree/3.0.3) (2023-01-30)
+<!-- latest_release 3.0.4 -->
+## [3.0.4](https://github.com/chef/chef-foundation/tree/3.0.4) (2023-02-16)
 
 #### Merged Pull Requests
-- Change package identifier. [#42](https://github.com/chef/chef-foundation/pull/42) ([gcs-devel](https://github.com/gcs-devel))
+- re-enabling internal source flag for omnibus [#44](https://github.com/chef/chef-foundation/pull/44) ([justingruber](https://github.com/justingruber))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- re-enabling internal source flag for omnibus [#44](https://github.com/chef/chef-foundation/pull/44) ([justingruber](https://github.com/justingruber)) <!-- 3.0.4 -->
 - Change package identifier. [#42](https://github.com/chef/chef-foundation/pull/42) ([gcs-devel](https://github.com/gcs-devel)) <!-- 3.0.3 -->
 - Use external sources for now [#40](https://github.com/chef/chef-foundation/pull/40) ([gcs-devel](https://github.com/gcs-devel)) <!-- 3.0.2 -->
 - Revert to using rubygems.org as the default source. [#39](https://github.com/chef/chef-foundation/pull/39) ([gcs-devel](https://github.com/gcs-devel)) <!-- 3.0.1 -->
