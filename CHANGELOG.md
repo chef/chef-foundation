@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.0.4 -->
-## [3.0.4](https://github.com/chef/chef-foundation/tree/3.0.4) (2023-02-16)
+<!-- latest_release 3.0.5 -->
+## [3.0.5](https://github.com/chef/chef-foundation/tree/3.0.5) (2023-02-22)
 
 #### Merged Pull Requests
-- re-enabling internal source flag for omnibus [#44](https://github.com/chef/chef-foundation/pull/44) ([justingruber](https://github.com/justingruber))
+- bundle update to have correct commit with internal cachine fix in it [#50](https://github.com/chef/chef-foundation/pull/50) ([justingruber](https://github.com/justingruber))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- bundle update to have correct commit with internal cachine fix in it [#50](https://github.com/chef/chef-foundation/pull/50) ([justingruber](https://github.com/justingruber)) <!-- 3.0.5 -->
 - re-enabling internal source flag for omnibus [#44](https://github.com/chef/chef-foundation/pull/44) ([justingruber](https://github.com/justingruber)) <!-- 3.0.4 -->
 - Change package identifier. [#42](https://github.com/chef/chef-foundation/pull/42) ([gcs-devel](https://github.com/gcs-devel)) <!-- 3.0.3 -->
 - Use external sources for now [#40](https://github.com/chef/chef-foundation/pull/40) ([gcs-devel](https://github.com/gcs-devel)) <!-- 3.0.2 -->
