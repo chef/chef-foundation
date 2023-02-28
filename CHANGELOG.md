@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 1.0.1 -->
-## [1.0.1](https://github.com/chef/chef-foundation/tree/1.0.1) (2023-02-23)
+<!-- latest_release 1.0.2 -->
+## [1.0.2](https://github.com/chef/chef-foundation/tree/1.0.2) (2023-02-28)
 
 #### Merged Pull Requests
-- Updating Gemfile.lock [#51](https://github.com/chef/chef-foundation/pull/51) ([jesseprieur](https://github.com/jesseprieur))
+- Downgrade windows builder from 2019 to 2012r2 [#52](https://github.com/chef/chef-foundation/pull/52) ([jesseprieur](https://github.com/jesseprieur))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Downgrade windows builder from 2019 to 2012r2 [#52](https://github.com/chef/chef-foundation/pull/52) ([jesseprieur](https://github.com/jesseprieur)) <!-- 1.0.2 -->
 - Updating Gemfile.lock [#51](https://github.com/chef/chef-foundation/pull/51) ([jesseprieur](https://github.com/jesseprieur)) <!-- 1.0.1 -->
 - Move back to using omnibus_overrides.rb [#33](https://github.com/chef/chef-foundation/pull/33) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.26 -->
 - Use artifactory rubygems proxy [#32](https://github.com/chef/chef-foundation/pull/32) ([gcs-devel](https://github.com/gcs-devel)) <!-- 0.1.25 -->
