@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 1.0.3 -->
-## [1.0.3](https://github.com/chef/chef-foundation/tree/1.0.3) (2023-03-06)
+<!-- latest_release 1.0.4 -->
+## [1.0.4](https://github.com/chef/chef-foundation/tree/1.0.4) (2023-03-07)
 
 #### Merged Pull Requests
-- bumping 1-stable ruby version to 2.7.7 [#53](https://github.com/chef/chef-foundation/pull/53) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
+- updating omnibus-software version that has the 2.7.7 added in [#55](https://github.com/chef/chef-foundation/pull/55) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- updating omnibus-software version that has the 2.7.7 added in [#55](https://github.com/chef/chef-foundation/pull/55) ([sean-simmons-progress](https://github.com/sean-simmons-progress)) <!-- 1.0.4 -->
 - bumping 1-stable ruby version to 2.7.7 [#53](https://github.com/chef/chef-foundation/pull/53) ([sean-simmons-progress](https://github.com/sean-simmons-progress)) <!-- 1.0.3 -->
 - Downgrade windows builder from 2019 to 2012r2 [#52](https://github.com/chef/chef-foundation/pull/52) ([jesseprieur](https://github.com/jesseprieur)) <!-- 1.0.2 -->
 - Updating Gemfile.lock [#51](https://github.com/chef/chef-foundation/pull/51) ([jesseprieur](https://github.com/jesseprieur)) <!-- 1.0.1 -->
