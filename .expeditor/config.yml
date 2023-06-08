@@ -45,11 +45,13 @@ github:
 
 release_branches:
   - main:
+      version_constraint: "4.*"
+  - 3-stable:
       version_constraint: "3.*"
   - 2-stable:
       version_constraint: "2.*"
   - 1-stable:
-      version_constraint: "1.*"  
+      version_constraint: "1.*"
 
 subscriptions:
   # These actions are taken, in order they are specified, anytime a Pull Request is merged.
