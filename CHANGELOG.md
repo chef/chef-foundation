@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.2 -->
-## [3.1.2](https://github.com/chef/chef-foundation/tree/3.1.2) (2023-06-07)
+<!-- latest_release 3.1.3 -->
+## [3.1.3](https://github.com/chef/chef-foundation/tree/3.1.3) (2023-06-09)
 
 #### Merged Pull Requests
-- CHEF-2776 Exclude AIX platform [#60](https://github.com/chef/chef-foundation/pull/60) ([poorndm](https://github.com/poorndm))
+- Revert to using OpenSSL 1.0.xx  [#62](https://github.com/chef/chef-foundation/pull/62) ([vkarve-chef](https://github.com/vkarve-chef))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Revert to using OpenSSL 1.0.xx  [#62](https://github.com/chef/chef-foundation/pull/62) ([vkarve-chef](https://github.com/vkarve-chef)) <!-- 3.1.3 -->
 - CHEF-2776 Exclude AIX platform [#60](https://github.com/chef/chef-foundation/pull/60) ([poorndm](https://github.com/poorndm)) <!-- 3.1.2 -->
 - Update Omnibus-s/w version to pick openssl config changes [#59](https://github.com/chef/chef-foundation/pull/59) ([poorndm](https://github.com/poorndm)) <!-- 3.1.1 -->
 - Build with openssl 3.0.4 [#56](https://github.com/chef/chef-foundation/pull/56) ([poorndm](https://github.com/poorndm)) <!-- 3.1.0 -->
