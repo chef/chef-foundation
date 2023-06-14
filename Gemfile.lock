@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 79ec0e6ed4e5cb1186a9434cc9ed45c8916be962
+  revision: 88169e3905268d413f3611425cdeb36c9a919746
   branch: main
   specs:
-    omnibus-software (23.6.291)
+    omnibus-software (23.6.292)
       omnibus (>= 9.0.0)
 
 GIT
