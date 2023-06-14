@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.4 -->
-## [3.1.4](https://github.com/chef/chef-foundation/tree/3.1.4) (2023-06-12)
+<!-- latest_release 3.1.5 -->
+## [3.1.5](https://github.com/chef/chef-foundation/tree/3.1.5) (2023-06-14)
 
 #### Merged Pull Requests
-- updating code owners [#58](https://github.com/chef/chef-foundation/pull/58) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
+- Update openssl to 1.0.2ze [#63](https://github.com/chef/chef-foundation/pull/63) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Update openssl to 1.0.2ze [#63](https://github.com/chef/chef-foundation/pull/63) ([poorndm](https://github.com/poorndm)) <!-- 3.1.5 -->
 - updating code owners [#58](https://github.com/chef/chef-foundation/pull/58) ([sean-simmons-progress](https://github.com/sean-simmons-progress)) <!-- 3.1.4 -->
 - Revert to using OpenSSL 1.0.xx  [#62](https://github.com/chef/chef-foundation/pull/62) ([vkarve-chef](https://github.com/vkarve-chef)) <!-- 3.1.3 -->
 - CHEF-2776 Exclude AIX platform [#60](https://github.com/chef/chef-foundation/pull/60) ([poorndm](https://github.com/poorndm)) <!-- 3.1.2 -->
