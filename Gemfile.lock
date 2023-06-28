@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 88169e3905268d413f3611425cdeb36c9a919746
-  branch: main
+  revision: 6201e76b669e33d141a56ec83dbd2663f165bd43
+  branch: vkarve/fix-windows-tar
   specs:
     omnibus-software (23.6.292)
       omnibus (>= 9.0.0)
