@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 499c66e30dab6c0ca772a5c552438586bd21b171
+  revision: 88169e3905268d413f3611425cdeb36c9a919746
   branch: main
   specs:
-    omnibus-software (23.2.282)
+    omnibus-software (23.6.292)
       omnibus (>= 9.0.0)
 
 GIT
@@ -94,7 +94,7 @@ GEM
       net-sftp (>= 2.1.2, < 5.0)
       ohai (~> 18.0)
       plist (~> 3.2)
-      proxifier (~> 1.0)
+      proxifier2 (~> 1.1)
       syslog-logger (~> 1.6)
       train-core (~> 3.10)
       train-rest (>= 0.4.1)
@@ -130,7 +130,7 @@ GEM
       net-sftp (>= 2.1.2, < 5.0)
       ohai (~> 18.0)
       plist (~> 3.2)
-      proxifier (~> 1.0)
+      proxifier2 (~> 1.1)
       syslog-logger (~> 1.6)
       train-core (~> 3.10)
       train-rest (>= 0.4.1)
@@ -337,7 +337,7 @@ GEM
       rainbow
       zhexdump (>= 0.0.2)
     plist (3.6.0)
-    proxifier (1.0.3)
+    proxifier2 (1.1.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
