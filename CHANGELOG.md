@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.7 -->
-## [3.1.7](https://github.com/chef/chef-foundation/tree/3.1.7) (2023-08-23)
+<!-- latest_release 3.1.8 -->
+## [3.1.8](https://github.com/chef/chef-foundation/tree/3.1.8) (2023-08-28)
 
 #### Merged Pull Requests
-- Update openssl version to 1.0.2zf [#67](https://github.com/chef/chef-foundation/pull/67) ([muthuja](https://github.com/muthuja))
+- Added rockylinux-9 to chef-foundation [#71](https://github.com/chef/chef-foundation/pull/71) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Added rockylinux-9 to chef-foundation [#71](https://github.com/chef/chef-foundation/pull/71) ([muthuja](https://github.com/muthuja)) <!-- 3.1.8 -->
 - Update openssl version to 1.0.2zf [#67](https://github.com/chef/chef-foundation/pull/67) ([muthuja](https://github.com/muthuja)) <!-- 3.1.7 -->
 - Add RockyLinux-8 builder &amp; Tester [#65](https://github.com/chef/chef-foundation/pull/65) ([poorndm](https://github.com/poorndm)) <!-- 3.1.6 -->
 - Update openssl to 1.0.2ze [#63](https://github.com/chef/chef-foundation/pull/63) ([poorndm](https://github.com/poorndm)) <!-- 3.1.5 -->
