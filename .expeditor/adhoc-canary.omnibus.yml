@@ -69,6 +69,8 @@ builder-to-testers-map:
     - rocky-8-aarch64
   rocky-9-x86_64:
     - rocky-9-x86_64
+  rocky-9-aarch64:
+    - rocky-9-aarch64
   sles-12-x86_64:
     - sles-12-x86_64
     - sles-15-x86_64
