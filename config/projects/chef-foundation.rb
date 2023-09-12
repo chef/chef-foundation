@@ -90,7 +90,7 @@ package :msi do
   upgrade_code msi_upgrade_code
   wix_candle_extension "WixUtilExtension"
   wix_light_extension "WixUtilExtension"
-  keypair-alias "key_495941360"
+  keypair_alias "key_495941360"
   signing_identity "769E6AF679126F184850AAC7C5C823A80DB3ADAA", machine_store: false
   parameters ProjectLocationDir: project_location_dir
 end
