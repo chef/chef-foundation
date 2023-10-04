@@ -30,7 +30,7 @@ pipelines:
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
-        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 3db0e86c940ba974612912e38333e498e26e4df8        
+        - OMNIBUS_BUILDKITE_PLUGIN_VERSION: 6798cc15048a8b0b320fa0750ccf6c44572f0e64        
         - OMNIBUS_USE_INTERNAL_SOURCES: false
         - IGNORE_ARTIFACTORY_RUBY_PROXY: false
 
