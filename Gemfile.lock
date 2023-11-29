@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: b48e54263f1d65d43f1b04562195cb305a21cb6d
+  revision: d357d5cf84dce2b99b28093c4a5c32f2f96b4787
   branch: main
   specs:
-    omnibus-software (23.10.302)
+    omnibus-software (23.11.307)
       omnibus (>= 9.0.0)
 
 GIT
@@ -244,7 +244,7 @@ GEM
     iso8601 (0.13.0)
     jmespath (1.6.2)
     json (2.6.3)
-    kitchen-vagrant (1.14.1)
+    kitchen-vagrant (1.14.2)
       test-kitchen (>= 1.4, < 4)
     libyajl2 (2.1.0)
     license-acceptance (2.1.13)
@@ -412,7 +412,7 @@ GEM
     strings-ansi (0.2.0)
     structured_warnings (0.4.0)
     syslog-logger (1.6.8)
-    test-kitchen (3.5.1)
+    test-kitchen (3.6.0)
       bcrypt_pbkdf (~> 1.0)
       chef-utils (>= 16.4.35)
       ed25519 (~> 1.2)
