@@ -1,5 +1,5 @@
 # Order is important. The last matching pattern has the most precedence.
 
-*                 @chef/chef-infra-reviewers @chef/eso-releng
+*                 @chef/chef-infra-reviewers @chef/build-engineering-systems-team
 .expeditor/**     @chef/eso-releng
-README.md         @chef/docs-team
+README.md         @chef/build-engineering-systems-team
