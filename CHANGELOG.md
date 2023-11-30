@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.11 -->
-## [3.1.11](https://github.com/chef/chef-foundation/tree/3.1.11) (2023-11-22)
+<!-- latest_release 3.1.12 -->
+## [3.1.12](https://github.com/chef/chef-foundation/tree/3.1.12) (2023-11-30)
 
 #### Merged Pull Requests
-- Updating openssl to 1.0.2zi [#84](https://github.com/chef/chef-foundation/pull/84) ([johnmccrae](https://github.com/johnmccrae))
+- updating code owners [#88](https://github.com/chef/chef-foundation/pull/88) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- updating code owners [#88](https://github.com/chef/chef-foundation/pull/88) ([sean-simmons-progress](https://github.com/sean-simmons-progress)) <!-- 3.1.12 -->
 - Updating openssl to 1.0.2zi [#84](https://github.com/chef/chef-foundation/pull/84) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.1.11 -->
 - Support Rocky-arm-8/9 [#81](https://github.com/chef/chef-foundation/pull/81) ([poorndm](https://github.com/poorndm)) <!-- 3.1.10 -->
 - updated gemfile lock omnibus version to 9.0.23 [#74](https://github.com/chef/chef-foundation/pull/74) ([muthuja](https://github.com/muthuja)) <!-- 3.1.9 -->
