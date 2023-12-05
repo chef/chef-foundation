@@ -1,7 +1,7 @@
 ---
 # Documentation available at https://expeditor.chef.io/docs/getting-started/
 project:
-  alias: chef-foundation
+  alias: chef-foundation-17
 
 # Slack channel in Chef Software slack to send notifications about build failures, etc
 slack:
@@ -46,10 +46,10 @@ github:
 release_branches:
   - main:
       version_constraint: "3.*"
+  - 1-stable:
+      version_constraint: "1.*"
   - 2-stable:
       version_constraint: "2.*"
-  - 1-stable:
-      version_constraint: "1.*"  
 
 subscriptions:
   # These actions are taken, in order they are specified, anytime a Pull Request is merged.
