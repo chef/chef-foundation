@@ -8,7 +8,7 @@ Branching.
 - 17-stable - this is for github.com/chef/chef:chef-17
 - please add more here if you onboard more tools, branches, platform. 
 
-1. Once you are ready to open a PR, please go ahead and commit your changes to your branch. Then open a PR based off what branch you pulled from. 
+1. Once you are ready to open a draft PR, please go ahead and commit your changes to your branch. Then open a PR based off what branch you pulled from. 
 
 2. After you have your PR open, or your branch created, please run a build here: https://buildkite.com/chef/chef-chef-foundation-main-omnibus-adhoc
     - Start a new build with your branch name as your branch. 

@@ -76,7 +76,7 @@ $ bundle exec omnibus help
 ```
 
 # Contribute
-Please checkout the [contribute](https://github.com/chef/chef-foundation/blob/main/CONTRIBUTING.md) how how to add your PR and get your changes merged. 
+Please checkout the [contribute](https://github.com/chef/chef-foundation/blob/main/CONTRIBUTING.md) page on how how to add your PR and get your changes merged. 
 
 ## License
 
