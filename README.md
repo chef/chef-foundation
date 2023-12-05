@@ -75,6 +75,9 @@ Full help for the Omnibus command line interface can be accessed with the
 $ bundle exec omnibus help
 ```
 
+# Contribute
+Please checkout the [contribute](https://github.com/chef/chef-foundation/blob/main/CONTRIBUTING.md) how how to add your PR and get your changes merged. 
+
 ## License
 
 ```
