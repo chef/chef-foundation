@@ -75,6 +75,15 @@ Full help for the Omnibus command line interface can be accessed with the
 $ bundle exec omnibus help
 ```
 
+# Contribute
+Please checkout the [contribute](https://github.com/chef/chef-foundation/blob/main/CONTRIBUTING.md) page on how how to add your PR and get your changes merged. 
+
+
+# Branches 
+- Main - This is for chef/chef:main (chef client 18)
+- 1-stable - This is for chef/chef-16, currently not being used as chef-16.
+- 2-stable - This is for chef/chef-17
+
 ## License
 
 ```
