@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.12 -->
-## [3.1.12](https://github.com/chef/chef-foundation/tree/3.1.12) (2023-11-30)
+<!-- latest_release 3.1.13 -->
+## [3.1.13](https://github.com/chef/chef-foundation/tree/3.1.13) (2023-12-06)
 
 #### Merged Pull Requests
-- updating code owners [#88](https://github.com/chef/chef-foundation/pull/88) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
+- Jfm/chef18 openssl 1.0.2zi - part 2 [#85](https://github.com/chef/chef-foundation/pull/85) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Jfm/chef18 openssl 1.0.2zi - part 2 [#85](https://github.com/chef/chef-foundation/pull/85) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.1.13 -->
 - updating code owners [#88](https://github.com/chef/chef-foundation/pull/88) ([sean-simmons-progress](https://github.com/sean-simmons-progress)) <!-- 3.1.12 -->
 - Updating openssl to 1.0.2zi [#84](https://github.com/chef/chef-foundation/pull/84) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.1.11 -->
 - Support Rocky-arm-8/9 [#81](https://github.com/chef/chef-foundation/pull/81) ([poorndm](https://github.com/poorndm)) <!-- 3.1.10 -->
