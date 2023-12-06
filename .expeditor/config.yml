@@ -13,8 +13,7 @@ product_key:
   - chef-foundation
 
 pipelines:
-  - verify:
-      public: true
+  - verify
   - omnibus/release:
       env:
         - IGNORE_CACHE: true
