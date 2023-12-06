@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 3268356b2eaf80715887e452c89b36d8f86974a0
+  revision: d357d5cf84dce2b99b28093c4a5c32f2f96b4787
   branch: main
   specs:
-    omnibus-software (23.7.295)
+    omnibus-software (23.11.307)
       omnibus (>= 9.0.0)
 
 GIT
@@ -54,7 +54,7 @@ GEM
     aws-sigv4 (1.5.2)
       aws-eventstream (~> 1, >= 1.0.2)
     bcrypt_pbkdf (1.1.0)
-    berkshelf (8.0.5)
+    berkshelf (8.0.9)
       chef (>= 15.7.32)
       chef-config
       cleanroom (~> 1.0)
@@ -130,7 +130,7 @@ GEM
       net-sftp (>= 2.1.2, < 5.0)
       ohai (~> 18.0)
       plist (~> 3.2)
-      proxifier2 (~> 1.1)
+      proxifier (~> 1.0)
       syslog-logger (~> 1.6)
       train-core (~> 3.10)
       train-rest (>= 0.4.1)
@@ -172,7 +172,7 @@ GEM
       rack (~> 2.0, >= 2.0.6)
       uuidtools (~> 2.1)
       webrick
-    chefstyle (2.2.2)
+    chefstyle (2.2.3)
       rubocop (= 1.25.1)
     citrus (3.0.2)
     cleanroom (1.0.0)
@@ -244,7 +244,7 @@ GEM
     iso8601 (0.13.0)
     jmespath (1.6.2)
     json (2.6.3)
-    kitchen-vagrant (1.14.0)
+    kitchen-vagrant (1.14.2)
       test-kitchen (>= 1.4, < 4)
     libyajl2 (2.1.0)
     license-acceptance (2.1.13)
@@ -330,13 +330,14 @@ GEM
     parslet (1.8.2)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    pedump (0.6.5)
+    pedump (0.6.6)
       awesome_print
       iostruct (>= 0.0.4)
       multipart-post (>= 2.0.0)
       rainbow
       zhexdump (>= 0.0.2)
     plist (3.6.0)
+    proxifier (1.0.3)
     proxifier2 (1.1.0)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -344,7 +345,7 @@ GEM
     public_suffix (5.0.1)
     rack (2.2.6.2)
     rainbow (3.1.1)
-    rake (13.0.6)
+    rake (13.1.0)
     regexp_parser (2.7.0)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -411,7 +412,7 @@ GEM
     strings-ansi (0.2.0)
     structured_warnings (0.4.0)
     syslog-logger (1.6.8)
-    test-kitchen (3.5.0)
+    test-kitchen (3.6.0)
       bcrypt_pbkdf (~> 1.0)
       chef-utils (>= 16.4.35)
       ed25519 (~> 1.2)
