@@ -49,7 +49,7 @@ $ bundle exec omnibus build chef-foundation
 
 After the build completes packages will be available in the `pkg/` folder.
 
-### Clean
+### Clean 
 
 You can clean up all temporary files generated during the build process with
 the `clean` command:
