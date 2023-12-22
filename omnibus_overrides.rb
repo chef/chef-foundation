@@ -9,10 +9,10 @@ override "liblzma", version: "5.2.5"
 override "libtool", version: "2.4.2"
 override "libarchive", version: "3.6.1"
 
-# libxslt 1.1.35 does not build successfully with libxml2 2.9.13 on Windows so we will pin
-# windows builds to libxslt 1.1.34 and libxml2 2.9.10 for now and followup later with the
-# work to fix that issue in IPACK-145.
-
+if solaris?
+  # Chef Infra Cilent failed to install on Solaris V11.4.47 - CHEF-7695
+  override :bash, version: "5.1.8"
+end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
