@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.15 -->
-## [3.1.15](https://github.com/chef/chef-foundation/tree/3.1.15) (2023-12-22)
+<!-- latest_release 3.1.16 -->
+## [3.1.16](https://github.com/chef/chef-foundation/tree/3.1.16) (2024-01-03)
 
 #### Merged Pull Requests
-- Downgrade bash to 5.1.8 on solaris [#100](https://github.com/chef/chef-foundation/pull/100) ([poorndm](https://github.com/poorndm))
+- added amazon2023 builder and tester [#101](https://github.com/chef/chef-foundation/pull/101) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- added amazon2023 builder and tester [#101](https://github.com/chef/chef-foundation/pull/101) ([muthuja](https://github.com/muthuja)) <!-- 3.1.16 -->
 - Downgrade bash to 5.1.8 on solaris [#100](https://github.com/chef/chef-foundation/pull/100) ([poorndm](https://github.com/poorndm)) <!-- 3.1.15 -->
 - unpinned/removed libxslt and libxml2 [#87](https://github.com/chef/chef-foundation/pull/87) ([muthuja](https://github.com/muthuja)) <!-- 3.1.14 -->
 - Jfm/chef18 openssl 1.0.2zi - part 2 [#85](https://github.com/chef/chef-foundation/pull/85) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.1.13 -->
