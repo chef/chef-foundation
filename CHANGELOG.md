@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.18 -->
-## [3.1.18](https://github.com/chef/chef-foundation/tree/3.1.18) (2024-01-17)
+<!-- latest_release 3.1.19 -->
+## [3.1.19](https://github.com/chef/chef-foundation/tree/3.1.19) (2024-01-17)
 
 #### Merged Pull Requests
-- 9.0.24 omnibus bump for Solaris pkgmogrify changes [#104](https://github.com/chef/chef-foundation/pull/104) ([tpowell-progress](https://github.com/tpowell-progress))
+- Revert &quot;openssl upgrade to 3.0.11&quot; [#105](https://github.com/chef/chef-foundation/pull/105) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Revert &quot;openssl upgrade to 3.0.11&quot; [#105](https://github.com/chef/chef-foundation/pull/105) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.1.19 -->
 - 9.0.24 omnibus bump for Solaris pkgmogrify changes [#104](https://github.com/chef/chef-foundation/pull/104) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.1.18 -->
 - openssl upgrade to 3.0.11 [#102](https://github.com/chef/chef-foundation/pull/102) ([muthuja](https://github.com/muthuja)) <!-- 3.1.17 -->
 - added amazon2023 builder and tester [#101](https://github.com/chef/chef-foundation/pull/101) ([muthuja](https://github.com/muthuja)) <!-- 3.1.16 -->
