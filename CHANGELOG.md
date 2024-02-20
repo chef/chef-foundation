@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.20 -->
-## [3.1.20](https://github.com/chef/chef-foundation/tree/3.1.20) (2024-01-18)
+<!-- latest_release 3.1.21 -->
+## [3.1.21](https://github.com/chef/chef-foundation/tree/3.1.21) (2024-02-20)
 
 #### Merged Pull Requests
-- To fix signature issue on Notarization [#106](https://github.com/chef/chef-foundation/pull/106) ([poorndm](https://github.com/poorndm))
+- upgrade openssl version to 3.0.9 [#103](https://github.com/chef/chef-foundation/pull/103) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- upgrade openssl version to 3.0.9 [#103](https://github.com/chef/chef-foundation/pull/103) ([muthuja](https://github.com/muthuja)) <!-- 3.1.21 -->
 - To fix signature issue on Notarization [#106](https://github.com/chef/chef-foundation/pull/106) ([poorndm](https://github.com/poorndm)) <!-- 3.1.20 -->
 - Revert &quot;openssl upgrade to 3.0.11&quot; [#105](https://github.com/chef/chef-foundation/pull/105) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.1.19 -->
 - 9.0.24 omnibus bump for Solaris pkgmogrify changes [#104](https://github.com/chef/chef-foundation/pull/104) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.1.18 -->
