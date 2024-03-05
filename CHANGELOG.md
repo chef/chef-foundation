@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.22 -->
-## [3.1.22](https://github.com/chef/chef-foundation/tree/3.1.22) (2024-02-26)
+<!-- latest_release 3.1.23 -->
+## [3.1.23](https://github.com/chef/chef-foundation/tree/3.1.23) (2024-03-05)
 
 #### Merged Pull Requests
-- Update Windows builder matching Infra-client  platforms [#108](https://github.com/chef/chef-foundation/pull/108) ([poorndm](https://github.com/poorndm))
+- this is just test pr to check release pipeline build [#109](https://github.com/chef/chef-foundation/pull/109) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- this is just test pr to check release pipeline build [#109](https://github.com/chef/chef-foundation/pull/109) ([muthuja](https://github.com/muthuja)) <!-- 3.1.23 -->
 - Update Windows builder matching Infra-client  platforms [#108](https://github.com/chef/chef-foundation/pull/108) ([poorndm](https://github.com/poorndm)) <!-- 3.1.22 -->
 - upgrade openssl version to 3.0.9 [#103](https://github.com/chef/chef-foundation/pull/103) ([muthuja](https://github.com/muthuja)) <!-- 3.1.21 -->
 - To fix signature issue on Notarization [#106](https://github.com/chef/chef-foundation/pull/106) ([poorndm](https://github.com/poorndm)) <!-- 3.1.20 -->
@@ -70,4 +71,3 @@
 
 <!-- latest_stable_release -->
 <!-- latest_stable_release -->
-
