@@ -4,6 +4,7 @@ set -ueo pipefail
 # We don't want to add the embedded bin dir to the main PATH as this
 # could mask issues in our binstub shebangs.
 export EMBEDDED_BIN_DIR="/opt/chef/embedded/bin"
+exec /rescue/sh
 
 # If we are on Mac our symlinks are located under /usr/local/bin
 # otherwise they are under /usr/bin
