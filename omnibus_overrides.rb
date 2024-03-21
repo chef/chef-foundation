@@ -19,10 +19,9 @@ override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
 override "nokogiri", version: "1.13.6"
 
-require 'rbconfig'
+require 'rubygems/platform'
 def windows_2012_or_2012r2?
-  os = RbConfig::CONFIG['target_os']
-  os.downcase.include?('windows') && (os.downcase.include?('2012') || os.downcase.include?('2012r2'))
+  Gem.platforms.any? { |platform| platform.os == 'mingw32' && (platform.version.start_with?('6.2') || platform.version.start_with?('6.3')) }
 end
 def determine_openssl_version
   if windows_2012_or_2012r2?
