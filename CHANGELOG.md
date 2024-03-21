@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.1.23 -->
-## [3.1.23](https://github.com/chef/chef-foundation/tree/3.1.23) (2024-03-05)
+<!-- latest_release 3.1.24 -->
+## [3.1.24](https://github.com/chef/chef-foundation/tree/3.1.24) (2024-03-21)
 
 #### Merged Pull Requests
-- this is just test pr to check release pipeline build [#109](https://github.com/chef/chef-foundation/pull/109) ([muthuja](https://github.com/muthuja))
+- remove mac 10.15 from release pipeline and add mac 11 as builder [#116](https://github.com/chef/chef-foundation/pull/116) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- remove mac 10.15 from release pipeline and add mac 11 as builder [#116](https://github.com/chef/chef-foundation/pull/116) ([muthuja](https://github.com/muthuja)) <!-- 3.1.24 -->
 - this is just test pr to check release pipeline build [#109](https://github.com/chef/chef-foundation/pull/109) ([muthuja](https://github.com/muthuja)) <!-- 3.1.23 -->
 - Update Windows builder matching Infra-client  platforms [#108](https://github.com/chef/chef-foundation/pull/108) ([poorndm](https://github.com/poorndm)) <!-- 3.1.22 -->
 - upgrade openssl version to 3.0.9 [#103](https://github.com/chef/chef-foundation/pull/103) ([muthuja](https://github.com/muthuja)) <!-- 3.1.21 -->
