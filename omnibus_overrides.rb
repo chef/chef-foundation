@@ -20,12 +20,12 @@ override "ncurses", version: "6.3"
 override "nokogiri", version: "1.13.6"
 
 require 'rbconfig'
-def windows_2012_or_2012r2?
+def windows_2012r2?
   os = RbConfig::CONFIG['target_os']
   os.downcase.include?('windows') && (os.downcase.include?('2012') || os.downcase.include?('2012r2'))
 end
 def determine_openssl_version
-  if windows_2012_or_2012r2?
+  if windows_2012r2?
     "1.0.2zi"
   else
     "3.0.9"
