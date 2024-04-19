@@ -7,8 +7,10 @@ test-path-windows: omnibus-test.ps1
 fips-platforms:
   - el-*-x86_64
   - el-*-ppc64*
-  - ubuntu-*-x86_64
+  - el-*-aarch*
+  - ubuntu-*
   - windows-*
+  - amazon-2023-*
 skip-artifactory-platforms:
   - freebsd-13-amd64
 windows-64-msystem: UCRT64

@@ -18,9 +18,14 @@ override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
 override "nokogiri", version: "1.13.6"
-override "openssl", version: "3.0.9"
+# if you need to calculate openssl environment
+openssl_version_default =  windows? ? "1.0.2zi" : "3.0.9"
+
+# set OPENSSL_OVERRIDE variable to a different openssl version to test
+# builds for other versions in omnibus_software
+override "openssl", version: ENV.fetch("OPENSSL_OVERRIDE", openssl_version_default)
 override "pkg-config-lite", version: "0.28-1"
-override :ruby, version: aix? ? "3.0.3" : "3.1.2", openssl_gem: "3.0.0"
+override :ruby, version: aix? ? "3.0.3" : "3.1.2", openssl_gem: "3.2.0"
 override "ruby-windows-devkit-bash", version: "3.1.23-4-msys-1.0.18"
 override "ruby-msys2-devkit", version: "3.1.2-1"
 override "util-macros", version: "1.19.0"

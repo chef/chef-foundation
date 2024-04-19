@@ -94,7 +94,7 @@ GEM
       net-sftp (>= 2.1.2, < 5.0)
       ohai (~> 18.0)
       plist (~> 3.2)
-      proxifier2 (~> 1.1)
+      proxifier (~> 1.0)
       syslog-logger (~> 1.6)
       train-core (~> 3.10)
       train-rest (>= 0.4.1)
@@ -172,13 +172,13 @@ GEM
       rack (~> 2.0, >= 2.0.6)
       uuidtools (~> 2.1)
       webrick
-    chefstyle (2.2.3)
-      rubocop (= 1.25.1)
     citrus (3.0.2)
     cleanroom (1.0.0)
     coderay (1.1.3)
     concurrent-ruby (1.2.0)
     contracts (0.16.1)
+    cookstyle (7.32.8)
+      rubocop (= 1.25.1)
     corefoundation (0.3.13)
       ffi (>= 1.15.0)
     date (3.3.3)
@@ -324,9 +324,11 @@ GEM
       plist (~> 3.1)
       train-core
       wmi-lite (~> 1.0)
+    openssl (3.2.0)
     parallel (1.22.1)
-    parser (3.2.1.0)
+    parser (3.3.0.5)
       ast (~> 2.4.1)
+      racc
     parslet (1.8.2)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -338,15 +340,15 @@ GEM
       zhexdump (>= 0.0.2)
     plist (3.6.0)
     proxifier (1.0.3)
-    proxifier2 (1.1.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
+    racc (1.7.3)
     rack (2.2.6.2)
     rainbow (3.1.1)
     rake (13.1.0)
-    regexp_parser (2.7.0)
+    regexp_parser (2.9.0)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -391,8 +393,8 @@ GEM
       rubocop-ast (>= 1.15.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.26.0)
-      parser (>= 3.2.1.0)
+    rubocop-ast (1.31.2)
+      parser (>= 3.3.0.4)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     rubyntlm (0.6.3)
@@ -475,7 +477,7 @@ GEM
     vault (0.17.0)
       aws-sigv4
     webrick (1.8.1)
-    win32-api (1.10.1-universal-mingw32)
+    win32-api (1.10.1)
     win32-certstore (0.6.15)
       chef-powershell (>= 1.0.12)
       ffi
@@ -529,10 +531,11 @@ PLATFORMS
 DEPENDENCIES
   artifactory
   berkshelf (>= 8.0)
-  chefstyle
+  cookstyle
   kitchen-vagrant (>= 1.3.1)
   omnibus!
   omnibus-software!
+  openssl (= 3.2.0)
   pedump
   rake
   test-kitchen (>= 1.23)
