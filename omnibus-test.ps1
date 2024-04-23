@@ -43,9 +43,16 @@ If ($env:OMNIBUS_FIPS_MODE -eq $true) {
     Write-Host "FIPS is enabled for this environment"
     Write-Host ":closed_lock_with_key: Validating FIPS"
     $env:OPENSSL_FIPS = "1"
-    Start-Process -NoNewWindow -Wait "$embedded_bin_dir\openssl.exe" -ArgumentList "md5" -RedirectStandardInput ".\LICENSE"  -PassThru
+    Start-Process -NoNewWindow -Wait "$embedded_bin_dir\openssl.exe" -ArgumentList "dgst", "-sha256" -RedirectStandardInput ".\LICENSE" -PassThru
     If ($lastexitcode -eq 0) {
-        Write-Host "FIPS validation failed--md5 should not be available in FIPS mode"
+      Write-Host "FIPS mode validation succeeded with SHA-256"
+    }
+    else {
+      Start-Process -NoNewWindow -Wait "$embedded_bin_dir\openssl.exe" -ArgumentList "dgst", "-sha3-256" -RedirectStandardInput ".\LICENSE" -PassThru
+      If ($lastexitcode -eq 0) {
+        Write-Host "FIPS mode validation succeeded with SHA-3 (SHA3-256)"
+      } else {
+        Write-Host "FIPS validation failed--neither SHA-256 nor SHA-3 (SHA3-256) available in FIPS mode"
         Throw $lastexitcode
     }
 } else {
