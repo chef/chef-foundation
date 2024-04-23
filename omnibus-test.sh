@@ -33,8 +33,38 @@ do
 done
 
 # Exercise various packaged tools to validate binstub shebangs
+echo ":ruby: Validating Ruby can run"
 "$EMBEDDED_BIN_DIR/ruby" --version
+echo ":gem: Validating RubyGems can run"
 "$EMBEDDED_BIN_DIR/gem" --version
+echo ":bundler: Checking Bundler version"
 "$EMBEDDED_BIN_DIR/bundle" --version
+echo ":carpentry_saw: Checking nokogiri version"
 "$EMBEDDED_BIN_DIR/nokogiri" --version
+
 "$EMBEDDED_BIN_DIR/ruby" -r openssl -e 'puts "Ruby can load OpenSSL"'
+
+echo ":lock: Checking OpenSSL version"
+"$EMBEDDED_BIN_DIR/openssl" version # ensure openssl command works
+
+if [ "$OMNIBUS_FIPS_MODE" = "true" ]
+then
+  echo "FIPS is enabled, checking FIPS mode functionality"
+  echo ":closed_lock_with_key: Checking FIPS mode"
+  export OPENSSL_FIPS=1
+  openssl dgst -sha256 < ./LICENSE
+  if [ $? -eq 0 ]
+  then
+    echo "FIPS mode validation succeeded with SHA-256"
+  else
+    openssl dgst -sha3-256 < ./LICENSE
+    if [ $? -eq 0 ]
+    then
+      echo "FIPS mode validation succeeded with SHA-3 (SHA3-256)"
+    else
+      echo "FIPS validation failed--neither SHA-256 nor SHA-3 (SHA3-256) available in FIPS mode"
+    fi
+  fi
+else
+  echo "FIPS is not enabled, skipping FIPS mode functionality test"
+fi
