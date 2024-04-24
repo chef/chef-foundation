@@ -37,4 +37,8 @@ done
 "$EMBEDDED_BIN_DIR/gem" --version
 "$EMBEDDED_BIN_DIR/bundle" --version
 "$EMBEDDED_BIN_DIR/nokogiri" --version
+
+echo "======== OpenSSL version"
+"$EMBEDDED_BIN_DIR/openssl" version
+ 
 "$EMBEDDED_BIN_DIR/ruby" -r openssl -e 'puts "Ruby can load OpenSSL"'
