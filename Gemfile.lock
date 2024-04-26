@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: d357d5cf84dce2b99b28093c4a5c32f2f96b4787
+  revision: 8233b4242227b9e5c11a53b6290d1b44715758fe
   branch: main
   specs:
-    omnibus-software (23.11.307)
+    omnibus-software (24.4.320)
       omnibus (>= 9.0.0)
 
 GIT
@@ -475,7 +475,7 @@ GEM
     vault (0.17.0)
       aws-sigv4
     webrick (1.8.1)
-    win32-api (1.10.1-universal-mingw32)
+    win32-api (1.10.1)
     win32-certstore (0.6.15)
       chef-powershell (>= 1.0.12)
       ffi
