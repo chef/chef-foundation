@@ -33,6 +33,7 @@ if windows?
   # NOTE: Ruby DevKit fundamentally CANNOT be installed into "Program Files"
   #       Native gems will use gcc which will barf on files with spaces,
   #       which is only fixable if everyone in the world fixes their Makefiles
+  system("gem uninstall -I libyajl2")
   install_dir  "#{default_root}/opscode/chef"
   package_name name
 else
