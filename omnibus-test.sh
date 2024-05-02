@@ -40,5 +40,6 @@ done
 
 echo "======== OpenSSL version"
 "$EMBEDDED_BIN_DIR/openssl" version
- 
+
 "$EMBEDDED_BIN_DIR/ruby" -r openssl -e 'puts "Ruby can load OpenSSL"'
+"$EMBEDDED_BIN_DIR/ruby" -r openssl -e "puts OpenSSL::VERSION"
