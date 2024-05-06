@@ -42,4 +42,27 @@ echo "======== OpenSSL version"
 "$EMBEDDED_BIN_DIR/openssl" version
 
 "$EMBEDDED_BIN_DIR/ruby" -r openssl -e 'puts "Ruby can load OpenSSL"'
-"$EMBEDDED_BIN_DIR/ruby" -r openssl -e "puts OpenSSL::VERSION"
+
+if [ "$OMNIBUS_FIPS_MODE" = "true" ]
+then
+  export OPENSSL_FIPS=1
+  echo "FIPS is enabled, checking FIPS mode"
+  ls -l /opt/chef/embedded/ssl/fipsmodule.cnf
+  ls -l /opt/chef/embedded/lib/ossl-modules/fips.so
+  echo "openssl.cnf:"
+  cat /opt/chef/embedded/ssl/openssl.cnf
+  echo "fipsmodule.cnf:"
+  cat /opt/chef/embedded/ssl/fipsmodule.cnf
+
+  echo ":closed_lock_with_key: Checking FIPS mode"
+  export OPENSSL_FIPS=1
+  "$EMBEDDED_BIN_DIR/openssl" md5 < ./LICENSE
+  if [ $? -eq 0 ]
+  then
+    echo "FIPS validation failed--md5 should not be available in FIPS mode"
+  fi
+  echo "Checking the rubies available"
+  find /opt -name 'ruby' -perm /111 -exec {} -v -e "puts \"{}\"; require 'openssl'; OpenSSL.fips_mode = 1" \;
+else
+  echo "FIPS is not enabled, skipping FIPS mode functionality test"
+fi
