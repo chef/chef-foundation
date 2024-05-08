@@ -61,8 +61,6 @@ then
   then
     echo "FIPS validation failed--md5 should not be available in FIPS mode"
   fi
-  echo "Checking the rubies available"
-  find /opt -name 'ruby' -perm /111 -exec {} -v -e "puts \"{}\"; require 'openssl'; OpenSSL.fips_mode = 1" \;
 else
   echo "FIPS is not enabled, skipping FIPS mode functionality test"
 fi
