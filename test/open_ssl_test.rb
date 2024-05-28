@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
+require "openssl"
 
 class OpenSSLTest < Minitest::Test
   def aix?
