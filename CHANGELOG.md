@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.1 -->
-## [3.2.1](https://github.com/chef/chef-foundation/tree/3.2.1) (2024-04-19)
+<!-- latest_release 3.2.2 -->
+## [3.2.2](https://github.com/chef/chef-foundation/tree/3.2.2) (2024-06-03)
 
 #### Merged Pull Requests
-- Modify freebsd builder -freebsd-13 [#112](https://github.com/chef/chef-foundation/pull/112) ([poorndm](https://github.com/poorndm))
+- Updating default versions to get past 2 CVE&#39;s [#125](https://github.com/chef/chef-foundation/pull/125) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Updating default versions to get past 2 CVE&#39;s [#125](https://github.com/chef/chef-foundation/pull/125) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.2 -->
 - Modify freebsd builder -freebsd-13 [#112](https://github.com/chef/chef-foundation/pull/112) ([poorndm](https://github.com/poorndm)) <!-- 3.2.1 -->
 - gem openssl 3.0.0 install to be consistent with ruby 3.1.2 [#114](https://github.com/chef/chef-foundation/pull/114) ([muthuja](https://github.com/muthuja)) <!-- 3.2.0 -->
 - remove mac 10.15 from release pipeline and add mac 11 as builder [#116](https://github.com/chef/chef-foundation/pull/116) ([muthuja](https://github.com/muthuja)) <!-- 3.1.24 -->
