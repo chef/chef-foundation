@@ -18,7 +18,20 @@ override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
 override "nokogiri", version: "1.13.6"
-override "openssl", version: "3.0.9"
+
+require 'rbconfig'
+def windows_2012r2?
+  os = RbConfig::CONFIG['target_os']
+  os.downcase.include?('windows') && (os.downcase.include?('2012') || os.downcase.include?('2012r2'))
+end
+def determine_openssl_version
+  if windows_2012r2?
+    "1.0.2zi"
+  else
+    "3.0.9"
+  end
+end
+override "openssl", version: determine_openssl_version
 override "pkg-config-lite", version: "0.28-1"
 override :ruby, version: aix? ? "3.0.3" : "3.1.4", openssl_gem: "3.0.0"
 override "ruby-windows-devkit-bash", version: "3.1.23-4-msys-1.0.18"
