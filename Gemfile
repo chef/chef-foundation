@@ -8,7 +8,13 @@ gem "artifactory"
 
 gem "pedump"
 
-gem "chefstyle"
+gem "cookstyle"
+
+# This is to help patch in openssl for Ruby 3.0.x, since Ruby 3.0 uses OpenSSL <3.0
+# unless you build without and reintroduce it manually.
+# Remove once we're no longer supporting Ruby 3.0.x.
+# Also, fips_mode may need it
+gem "openssl", "= 3.2.0"
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
@@ -19,7 +25,7 @@ group :development do
   gem "berkshelf", ">= 8.0"
 
   # Use Test Kitchen with Vagrant for converging the build environment
-  gem "test-kitchen", ">= 1.23"
+  gem "test-kitchen", ">= 1.23", "< 3.6"
   gem "kitchen-vagrant", ">= 1.3.1"
   gem "winrm-fs", "~> 1.0"
 end

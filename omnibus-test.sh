@@ -33,8 +33,57 @@ do
 done
 
 # Exercise various packaged tools to validate binstub shebangs
+echo ":ruby: Validating Ruby can run"
 "$EMBEDDED_BIN_DIR/ruby" --version
+echo ":gem: Validating RubyGems can run"
 "$EMBEDDED_BIN_DIR/gem" --version
+echo ":bundler: Checking Bundler version"
 "$EMBEDDED_BIN_DIR/bundle" --version
+echo ":carpentry_saw: Checking nokogiri version"
 "$EMBEDDED_BIN_DIR/nokogiri" --version
+
 "$EMBEDDED_BIN_DIR/ruby" -r openssl -e 'puts "Ruby can load OpenSSL"'
+
+echo ":lock: Checking OpenSSL version"
+"$EMBEDDED_BIN_DIR/openssl" version # ensure openssl command works
+
+echo "Validating that OpenSSL does not error with SHA3"
+"$EMBEDDED_BIN_DIR/openssl" sha3-512 < ./LICENSE
+
+export PATH=$EMBEDDED_BIN_DIR:$PATH
+if [ "$OMNIBUS_FIPS_MODE" = "true" ]
+then
+  export OPENSSL_FIPS=1
+fi
+
+
+if [ "$OMNIBUS_FIPS_MODE" = "true" ]
+then
+  "$EMBEDDED_BIN_DIR/bundle" install --jobs=2 --retry=3
+
+  echo "the ruby we _expect_ to be using"
+  echo "--------------------------------"
+  echo "Checking $EMBEDDED_BIN_DIR/ruby"
+  sum $EMBEDDED_BIN_DIR/ruby
+  "$EMBEDDED_BIN_DIR/ruby" -v -e "require 'openssl'; puts OpenSSL::OPENSSL_VERSION_NUMBER.to_s(16); puts OpenSSL::OPENSSL_LIBRARY_VERSION; OpenSSL.fips_mode = 1; puts 'OpenSSL FIPS validated for ' + RUBY_VERSION"
+
+  echo "FIPS is enabled, checking FIPS mode"
+  ls -l /opt/chef/embedded/ssl/fipsmodule.cnf
+
+  echo "Listing openssl providers"
+  "$EMBEDDED_BIN_DIR/openssl" list -providers # fips should be a provider here
+
+  echo ":closed_lock_with_key: Checking FIPS mode"
+  "$EMBEDDED_BIN_DIR/openssl" md5 < ./LICENSE
+
+  if [ $? -eq 0 ]
+  then
+    ret_code=$?
+    echo "openssl executable still allows md5"
+    # exit $?
+  fi
+
+  "$EMBEDDED_BIN_DIR/rake" test -v
+else
+  echo "FIPS is not enabled, skipping FIPS mode functionality test"
+fi

@@ -9,6 +9,10 @@ export LANG=C.UTF-8 LANGUAGE=C.UTF-8
 
 echo "--- bundle install"
 
+if [ "${OMNIBUS_FIPS_MODE-false}" = "true" ]; then
+  export OPENSSL_FIPS=1
+fi
+
 bundle config --local path vendor/bundle
 bundle config set --local without development
 bundle install --jobs=7 --retry=3
