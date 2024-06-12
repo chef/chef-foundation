@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.4 -->
-## [3.2.4](https://github.com/chef/chef-foundation/tree/3.2.4) (2024-06-06)
+<!-- latest_release 3.2.5 -->
+## [3.2.5](https://github.com/chef/chef-foundation/tree/3.2.5) (2024-06-12)
 
 #### Merged Pull Requests
-- build freebsd-13 artifacts [#126](https://github.com/chef/chef-foundation/pull/126) ([muthuja](https://github.com/muthuja))
+- Updating Omnibus Software [#127](https://github.com/chef/chef-foundation/pull/127) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Updating Omnibus Software [#127](https://github.com/chef/chef-foundation/pull/127) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.5 -->
 - build freebsd-13 artifacts [#126](https://github.com/chef/chef-foundation/pull/126) ([muthuja](https://github.com/muthuja)) <!-- 3.2.4 -->
 - Build OpenSSL 3.0.9 and Ruby 3.1 (except AIX, Windows - 1.0.2zi and macOS 1.1.1m) [#121](https://github.com/chef/chef-foundation/pull/121) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.3 -->
 - Updating default versions to get past 2 CVE&#39;s [#125](https://github.com/chef/chef-foundation/pull/125) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.2 -->
