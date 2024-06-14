@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: a7d3261991f867ea46d83d12dd0a2416cd7a0f80
-  branch: jfm/chef18-registry-resolv-issues
+  revision: 28c9c9f8419094cef59ca37802084db716166ace
+  branch: main
   specs:
     omnibus-software (24.6.323)
       ffi (< 1.17.0)
