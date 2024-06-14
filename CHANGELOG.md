@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.6 -->
-## [3.2.6](https://github.com/chef/chef-foundation/tree/3.2.6) (2024-06-12)
+<!-- latest_release 3.2.7 -->
+## [3.2.7](https://github.com/chef/chef-foundation/tree/3.2.7) (2024-06-14)
 
 #### Merged Pull Requests
-- updated latest sha of omnibus-software [#128](https://github.com/chef/chef-foundation/pull/128) ([muthuja](https://github.com/muthuja))
+- Updating chef-foundation to pull in patches [#129](https://github.com/chef/chef-foundation/pull/129) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
 <!-- release_rollup -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
+- Updating chef-foundation to pull in patches [#129](https://github.com/chef/chef-foundation/pull/129) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.7 -->
 - updated latest sha of omnibus-software [#128](https://github.com/chef/chef-foundation/pull/128) ([muthuja](https://github.com/muthuja)) <!-- 3.2.6 -->
 - Updating Omnibus Software [#127](https://github.com/chef/chef-foundation/pull/127) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.5 -->
 - build freebsd-13 artifacts [#126](https://github.com/chef/chef-foundation/pull/126) ([muthuja](https://github.com/muthuja)) <!-- 3.2.4 -->
