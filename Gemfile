@@ -10,6 +10,8 @@ gem "pedump"
 
 gem "chefstyle"
 
+gem "openssl", "~> 3.2.0"
+
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
 # the Test Kitchen-based build lab. You can skip these unnecessary dependencies
