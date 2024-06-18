@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.8 -->
+## [3.2.8](https://github.com/chef/chef-foundation/tree/3.2.8) (2024-06-18)
+
+#### Merged Pull Requests
+- test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.7 -->
+### Changes since 3.2.7 release
+
+#### Merged Pull Requests
+- test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja)) <!-- 3.2.8 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
@@ -76,4 +84,3 @@
 - updated latest sha of omnibus-software [#128](https://github.com/chef/chef-foundation/pull/128) ([muthuja](https://github.com/muthuja))
 - Updating chef-foundation to pull in patches [#129](https://github.com/chef/chef-foundation/pull/129) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_stable_release -->
-
