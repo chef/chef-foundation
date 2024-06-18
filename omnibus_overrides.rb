@@ -21,7 +21,7 @@ override "nokogiri", version: "1.13.6"
 # if you need to calculate openssl environment
 openssl_version_default =
   case
-  when windows?, aix?
+  when windows?
     "1.0.2zi"
   when macos?
     "1.1.1m"
