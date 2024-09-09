@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.8 -->
-## [3.2.8](https://github.com/chef/chef-foundation/tree/3.2.8) (2024-06-18)
+<!-- latest_release 3.2.9 -->
+## [3.2.9](https://github.com/chef/chef-foundation/tree/3.2.9) (2024-09-09)
 
 #### Merged Pull Requests
-- test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja))
+- remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja)) <!-- 3.2.9 -->
 - test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja)) <!-- 3.2.8 -->
 <!-- release_rollup -->
 
