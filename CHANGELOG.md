@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.9 -->
-## [3.2.9](https://github.com/chef/chef-foundation/tree/3.2.9) (2024-09-09)
+<!-- latest_release 3.2.10 -->
+## [3.2.10](https://github.com/chef/chef-foundation/tree/3.2.10) (2024-09-26)
 
 #### Merged Pull Requests
-- remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja))
+- bump omnibus-software for 3.1.6 [#136](https://github.com/chef/chef-foundation/pull/136) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- bump omnibus-software for 3.1.6 [#136](https://github.com/chef/chef-foundation/pull/136) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.10 -->
 - remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja)) <!-- 3.2.9 -->
 - test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja)) <!-- 3.2.8 -->
 <!-- release_rollup -->
