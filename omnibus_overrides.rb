@@ -21,8 +21,6 @@ override "nokogiri", version: "1.13.6"
 # if you need to calculate openssl environment
 openssl_version_default =
   case
-  when windows?
-    "1.0.2zi"
   when macos?
     "1.1.1m"
   else
@@ -33,7 +31,7 @@ openssl_version_default =
 # builds for other versions in omnibus_software
 override "openssl", version: ENV.fetch("OPENSSL_OVERRIDE", openssl_version_default)
 override "pkg-config-lite", version: "0.28-1"
-override :ruby, version: aix? ? "3.0.3" : "3.1.4", openssl_gem: "3.2.0"
+override :ruby, version: aix? ? "3.0.3" : "3.1.6", openssl_gem: "3.2.0"
 override "ruby-windows-devkit-bash", version: "3.1.23-4-msys-1.0.18"
 override "ruby-msys2-devkit", version: "3.1.4-1"
 override "util-macros", version: "1.19.0"
