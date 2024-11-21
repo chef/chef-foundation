@@ -20,10 +20,7 @@ override "ncurses", version: "6.3"
 override "nokogiri", version: "1.13.6"
 # if you need to calculate openssl environment
 openssl_version_default =
-  case
-#  when windows?
-#    "1.0.2zi"
-  when macos?
+  if macos?
     "1.1.1m"
   else
     "3.0.9"
