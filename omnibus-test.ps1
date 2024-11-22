@@ -83,7 +83,7 @@ If ($env:OMNIBUS_FIPS_MODE -eq $true) {
 
     Write-Host "Checking that MD5 digest is not allowed"
     # catch OpenSSL::Digest::MD5 and reraise, rescue anything else
-    & $embedded_bin_dir/ruby.exe -v -e "require 'openssl'; begin;OpenSSL.fips_mode=1;OpenSSL::Digest::MD5.new('hi');rescue OpenSSL::Digest::DigestError => e;puts 'MD5 through an error as expected';rescue => e;raise 'Unexpected error with MD5 digest';puts e.inspect;end"
+    & $embedded_bin_dir/ruby.exe -v -e "require 'openssl'; begin;OpenSSL.fips_mode=1;OpenSSL::Digest::MD5.new('hi');rescue OpenSSL::Digest::DigestError => e;puts 'MD5 threw an error as expected';rescue => e;raise 'Unexpected error with MD5 digest';puts e.inspect;end"
 
     If ($lastexitcode -ne 0) {
         $fips_errors += "Ruby FIPS MD5 validation failed"
