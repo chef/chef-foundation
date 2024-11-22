@@ -43,11 +43,13 @@ If ($lastexitcode -ne 0) {
     Write-Host "sha3 failed"
     Throw $lastexitcode
 }
-If ($end:OMNIBUS_FIPS_MODE -eq $true) {
+If ($env:OMNIBUS_FIPS_MODE -eq $true) {
     $env:OPENSSL_FIPS = "1"
 }
 
 & $embedded_bin_dir\bundle install --jobs=2 --retry=3
+
+Write-Host "MSYS_OVERRIDE $env:MSYS_OVERRIDE"
 
 If ($env:OMNIBUS_FIPS_MODE -eq $true) {
     $fips_errors=@()
