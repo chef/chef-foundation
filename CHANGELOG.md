@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.11 -->
-## [3.2.11](https://github.com/chef/chef-foundation/tree/3.2.11) (2024-11-22)
+<!-- latest_release 3.2.12 -->
+## [3.2.12](https://github.com/chef/chef-foundation/tree/3.2.12) (2024-11-22)
 
 #### Merged Pull Requests
-- Update windows devkit to 3.1.6 and omnibus-software for URL [#138](https://github.com/chef/chef-foundation/pull/138) ([tpowell-progress](https://github.com/tpowell-progress))
+- Fix through -&gt; threw [#140](https://github.com/chef/chef-foundation/pull/140) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- Fix through -&gt; threw [#140](https://github.com/chef/chef-foundation/pull/140) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.12 -->
 - Update windows devkit to 3.1.6 and omnibus-software for URL [#138](https://github.com/chef/chef-foundation/pull/138) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.11 -->
 - bump omnibus-software for 3.1.6 [#136](https://github.com/chef/chef-foundation/pull/136) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.10 -->
 - remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja)) <!-- 3.2.9 -->
