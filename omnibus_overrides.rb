@@ -23,7 +23,7 @@ openssl_version_default =
   if macos?
     "1.1.1m"
   else
-    "3.0.9"
+    "3.0.11"
   end
 
 # set OPENSSL_OVERRIDE variable to a different openssl version to test
