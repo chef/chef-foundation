@@ -15,6 +15,7 @@ gem "cookstyle"
 # Remove once we're no longer supporting Ruby 3.0.x.
 # Also, fips_mode may need it
 gem "openssl", "= 3.2.0"
+gem "ffi", "= 1.17.0"
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
