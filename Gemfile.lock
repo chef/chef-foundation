@@ -54,6 +54,7 @@ GEM
     aws-sigv4 (1.8.0)
       aws-eventstream (~> 1, >= 1.0.2)
     bcrypt_pbkdf (1.1.1)
+    base64 (0.2.0)
     berkshelf (8.0.9)
       chef (>= 15.7.32)
       chef-config
