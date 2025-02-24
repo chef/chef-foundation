@@ -17,7 +17,7 @@ end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
-override "nokogiri", version: "1.13.6"
+override "nokogiri", version: "1.18.3"
 # if you need to calculate openssl environment
 openssl_version_default =
   if macos?
