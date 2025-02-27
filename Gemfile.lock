@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: b97bb4e3e1319ca1c06b1a06f1f6354d3514ff51
+  revision: 3b903b2e01c332054196b17502134c2e280de2e6
   branch: main
   specs:
     omnibus-software (24.6.323)
@@ -265,8 +265,6 @@ GEM
     minitar (0.9)
     mixlib-archive (1.1.7)
       mixlib-log
-    mixlib-archive (1.1.7-universal-mingw32)
-      mixlib-log
     mixlib-authentication (3.0.10)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
@@ -278,11 +276,6 @@ GEM
     mixlib-log (3.0.9)
     mixlib-shellout (3.2.7)
       chef-utils
-    mixlib-shellout (3.2.7-universal-mingw32)
-      chef-utils
-      ffi-win32-extensions (~> 1.0.3)
-      win32-process (~> 0.9)
-      wmi-lite (~> 1.0)
     mixlib-shellout (3.2.7-x64-mingw-ucrt)
       chef-utils
       ffi-win32-extensions (~> 1.0.3)
@@ -351,18 +344,6 @@ GEM
     rake (13.1.0)
     regexp_parser (2.9.0)
     rest-client (2.1.0)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
-    rest-client (2.1.0-x64-mingw32)
-      ffi (~> 1.9)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
-    rest-client (2.1.0-x86-mingw32)
-      ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -526,8 +507,6 @@ PLATFORMS
   ruby
   x64-mingw
   x64-mingw-ucrt
-  x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   artifactory
