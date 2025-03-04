@@ -6,7 +6,7 @@
 # software here: bundle exec rake dependencies:update_omnibus_gemfile_lock
 override "libffi", version: "3.4.2"
 override "libiconv", version: "1.16"
-override "liblzma", version: "5.2.5"
+override "liblzma", version: "5.6.4"
 override "libtool", version: "2.4.2"
 override "libarchive", version: "3.6.1"
 
