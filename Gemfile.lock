@@ -54,6 +54,7 @@ GEM
     aws-sigv4 (1.8.0)
       aws-eventstream (~> 1, >= 1.0.2)
     bcrypt_pbkdf (1.1.1)
+    bcrypt_pbkdf (1.1.1-x64-mingw-ucrt)
     berkshelf (8.0.9)
       chef (>= 15.7.32)
       chef-config
@@ -111,6 +112,7 @@ GEM
       chef-powershell (~> 18.1.0)
       chef-utils (= 18.4.12)
       chef-vault
+      chef-win32-api (~> 1.11.0)
       chef-zero (>= 14.0.11)
       corefoundation (~> 0.3.4)
       diff-lcs (>= 1.2.4, < 1.6.0, != 1.4.0)
@@ -165,6 +167,7 @@ GEM
       concurrent-ruby (~> 1.0)
     chef-utils (18.4.12)
       concurrent-ruby
+    chef-win32-api (1.11.0)  
     chef-vault (4.1.11)
     chef-zero (15.0.11)
       ffi-yajl (~> 2.2)
@@ -195,6 +198,7 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
+    ffi (1.16.3-x64-mingw-ucrt)
     ffi-libarchive (1.1.14)
       ffi (~> 1.0)
     ffi-win32-extensions (1.0.4)
@@ -278,11 +282,6 @@ GEM
     mixlib-log (3.0.9)
     mixlib-shellout (3.2.7)
       chef-utils
-    mixlib-shellout (3.2.7-universal-mingw32)
-      chef-utils
-      ffi-win32-extensions (~> 1.0.3)
-      win32-process (~> 0.9)
-      wmi-lite (~> 1.0)
     mixlib-shellout (3.2.7-x64-mingw-ucrt)
       chef-utils
       ffi-win32-extensions (~> 1.0.3)
@@ -351,18 +350,6 @@ GEM
     rake (13.1.0)
     regexp_parser (2.9.0)
     rest-client (2.1.0)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
-    rest-client (2.1.0-x64-mingw32)
-      ffi (~> 1.9)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
-    rest-client (2.1.0-x86-mingw32)
-      ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -471,6 +458,7 @@ GEM
       strings (~> 0.2.0)
       tty-screen (~> 0.8)
     unf_ext (0.0.8.2)
+    unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (2.5.0)
     unicode_utils (1.4.0)
     uri (0.13.0)
@@ -478,7 +466,6 @@ GEM
     vault (0.18.2)
       aws-sigv4
     webrick (1.8.1)
-    win32-api (1.10.1)
     win32-certstore (0.6.16)
       chef-powershell
       ffi
@@ -524,10 +511,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw
   x64-mingw-ucrt
-  x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   artifactory
