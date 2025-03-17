@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.14 -->
-## [3.2.14](https://github.com/chef/chef-foundation/tree/3.2.14) (2025-03-10)
+<!-- latest_release 3.2.15 -->
+## [3.2.15](https://github.com/chef/chef-foundation/tree/3.2.15) (2025-03-17)
 
 #### Merged Pull Requests
-- update nokogiri to overcome CVE and pin libxml2 and libxslt to overri… [#150](https://github.com/chef/chef-foundation/pull/150) ([muthuja](https://github.com/muthuja))
+- remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja)) <!-- 3.2.15 -->
 - update nokogiri to overcome CVE and pin libxml2 and libxslt to overri… [#150](https://github.com/chef/chef-foundation/pull/150) ([muthuja](https://github.com/muthuja)) <!-- 3.2.14 -->
 - Fix openssl- 3.2.0 gem issue and Update Mixlib-log gem [#148](https://github.com/chef/chef-foundation/pull/148) ([poorndm](https://github.com/poorndm)) <!-- 3.2.13 -->
 - Fix through -&gt; threw [#140](https://github.com/chef/chef-foundation/pull/140) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.12 -->
