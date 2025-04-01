@@ -30,7 +30,7 @@ pipelines:
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
-        - OMNIBUS_USE_INTERNAL_SOURCES: true
+        - OMNIBUS_USE_INTERNAL_SOURCES: false
 
 github:
   # This deletes the GitHub PR branch after successfully merged into the release branch
