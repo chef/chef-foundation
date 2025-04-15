@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.16 -->
-## [3.2.16](https://github.com/chef/chef-foundation/tree/3.2.16) (2025-04-09)
+<!-- latest_release 3.2.17 -->
+## [3.2.17](https://github.com/chef/chef-foundation/tree/3.2.17) (2025-04-15)
 
 #### Merged Pull Requests
-- Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm))
+- make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
 - Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm)) <!-- 3.2.16 -->
 - remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja)) <!-- 3.2.15 -->
 - update nokogiri to overcome CVE and pin libxml2 and libxslt to overri… [#150](https://github.com/chef/chef-foundation/pull/150) ([muthuja](https://github.com/muthuja)) <!-- 3.2.14 -->
