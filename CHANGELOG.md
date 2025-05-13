@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.17 -->
-## [3.2.17](https://github.com/chef/chef-foundation/tree/3.2.17) (2025-04-15)
+<!-- latest_release 3.2.18 -->
+## [3.2.18](https://github.com/chef/chef-foundation/tree/3.2.18) (2025-05-13)
 
 #### Merged Pull Requests
-- make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh))
+- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
 - make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
 - Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm)) <!-- 3.2.16 -->
 - remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja)) <!-- 3.2.15 -->
