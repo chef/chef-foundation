@@ -44,10 +44,6 @@ overrides_path = File.expand_path("../../../omnibus_overrides.rb", current_file)
 instance_eval(IO.read(overrides_path), overrides_path)
 
 dependency "preparation"
-# Exclude libxcrypt for specific platforms
-unless %w{aix mac_os_x solaris2 windows}.include?(ohai["platform_family"])
-  dependency "libxcrypt"
-end
 # THIS CAME FROM OMNIBUS-SOFTWARE CHEF.RB
 dependency "ruby"
 dependency "libarchive" # for archive resource
