@@ -3,10 +3,14 @@
 <!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.16 -->
+### Changes since 3.2.16 release
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v3.2.16](https://github.com/chef/chef-foundation/tree/v3.2.16) (2025-05-30)
+<!-- latest_stable_release -->
+
 ## [v3.2.7](https://github.com/chef/chef-foundation/tree/v3.2.7) (2024-06-14)
 
 #### Merged Pull Requests
@@ -40,5 +44,3 @@
 - Use external sources for now [#40](https://github.com/chef/chef-foundation/pull/40) ([gcs-devel](https://github.com/gcs-devel))
 - Change package identifier. [#42](https://github.com/chef/chef-foundation/pull/42) ([gcs-devel](https://github.com/gcs-devel))
 - Sean simmons progress/test bump [#98](https://github.com/chef/chef-foundation/pull/98) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
-<!-- latest_stable_release -->
-
