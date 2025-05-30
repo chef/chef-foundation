@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.18 -->
-## [3.2.18](https://github.com/chef/chef-foundation/tree/3.2.18) (2025-05-13)
+<!-- latest_release 3.2.19 -->
+## [3.2.19](https://github.com/chef/chef-foundation/tree/3.2.19) (2025-05-30)
 
 #### Merged Pull Requests
-- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm))
+- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.7 -->
 ### Changes since 3.2.7 release
 
 #### Merged Pull Requests
+- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm)) <!-- 3.2.19 -->
 - Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
 - make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
 - Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm)) <!-- 3.2.16 -->
