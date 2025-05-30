@@ -3,10 +3,14 @@
 <!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.16 -->
+### Changes since 3.2.16 release
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.16](https://github.com/chef/chef-foundation/tree/3.2.16) (2025-05-30)
+<!-- latest_stable_release -->
+
 ## [3.2.7](https://github.com/chef/chef-foundation/tree/3.2.7) (2024-06-14)
 
 #### Merged Pull Requests
@@ -41,5 +45,3 @@
 - bumping 1-stable ruby version to 2.7.7 [#53](https://github.com/chef/chef-foundation/pull/53) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
 - updating omnibus-software version that has the 2.7.7 added in [#55](https://github.com/chef/chef-foundation/pull/55) ([sean-simmons-progress](https://github.com/sean-simmons-progress))
 - updated the gemfile lock [#77](https://github.com/chef/chef-foundation/pull/77) ([muthuja](https://github.com/muthuja))
-<!-- latest_stable_release -->
-
