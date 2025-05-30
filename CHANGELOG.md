@@ -7,25 +7,30 @@
 - Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.7 -->
-### Changes since 3.2.7 release
+<!-- release_rollup since=3.2.16 -->
+### Changes since 3.2.16 release
 
 #### Merged Pull Requests
-- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm)) <!-- 3.2.19 -->
-- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
 - make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
-- Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm)) <!-- 3.2.16 -->
-- remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja)) <!-- 3.2.15 -->
-- update nokogiri to overcome CVE and pin libxml2 and libxslt to overri… [#150](https://github.com/chef/chef-foundation/pull/150) ([muthuja](https://github.com/muthuja)) <!-- 3.2.14 -->
-- Fix openssl- 3.2.0 gem issue and Update Mixlib-log gem [#148](https://github.com/chef/chef-foundation/pull/148) ([poorndm](https://github.com/poorndm)) <!-- 3.2.13 -->
-- Fix through -&gt; threw [#140](https://github.com/chef/chef-foundation/pull/140) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.12 -->
-- Update windows devkit to 3.1.6 and omnibus-software for URL [#138](https://github.com/chef/chef-foundation/pull/138) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.11 -->
-- bump omnibus-software for 3.1.6 [#136](https://github.com/chef/chef-foundation/pull/136) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.10 -->
-- remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja)) <!-- 3.2.9 -->
-- test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja)) <!-- 3.2.8 -->
+- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
+- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm)) <!-- 3.2.19 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.16](https://github.com/chef/chef-foundation/tree/3.2.16) (2025-05-30)
+
+#### Merged Pull Requests
+- test openssl 3.0.9 on AIX [#131](https://github.com/chef/chef-foundation/pull/131) ([muthuja](https://github.com/muthuja))
+- remove el-6 and update digi cert token for windows platforms [#135](https://github.com/chef/chef-foundation/pull/135) ([muthuja](https://github.com/muthuja))
+- bump omnibus-software for 3.1.6 [#136](https://github.com/chef/chef-foundation/pull/136) ([tpowell-progress](https://github.com/tpowell-progress))
+- Update windows devkit to 3.1.6 and omnibus-software for URL [#138](https://github.com/chef/chef-foundation/pull/138) ([tpowell-progress](https://github.com/tpowell-progress))
+- Fix through -&gt; threw [#140](https://github.com/chef/chef-foundation/pull/140) ([tpowell-progress](https://github.com/tpowell-progress))
+- Fix openssl- 3.2.0 gem issue and Update Mixlib-log gem [#148](https://github.com/chef/chef-foundation/pull/148) ([poorndm](https://github.com/poorndm))
+- update nokogiri to overcome CVE and pin libxml2 and libxslt to overri… [#150](https://github.com/chef/chef-foundation/pull/150) ([muthuja](https://github.com/muthuja))
+- remove mac 11 as its EOL and pick latest version of omnibus-software [#151](https://github.com/chef/chef-foundation/pull/151) ([muthuja](https://github.com/muthuja))
+- Update pipeline to support macOS 13 and 14 ARM  [#152](https://github.com/chef/chef-foundation/pull/152) ([poorndm](https://github.com/poorndm))
+<!-- latest_stable_release -->
+
 ## [3.2.7](https://github.com/chef/chef-foundation/tree/3.2.7) (2024-06-14)
 
 #### Merged Pull Requests
@@ -94,4 +99,3 @@
 - Updating Omnibus Software [#127](https://github.com/chef/chef-foundation/pull/127) ([johnmccrae](https://github.com/johnmccrae))
 - updated latest sha of omnibus-software [#128](https://github.com/chef/chef-foundation/pull/128) ([muthuja](https://github.com/muthuja))
 - Updating chef-foundation to pull in patches [#129](https://github.com/chef/chef-foundation/pull/129) ([johnmccrae](https://github.com/johnmccrae))
-<!-- latest_stable_release -->
