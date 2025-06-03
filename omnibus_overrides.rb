@@ -17,7 +17,7 @@ end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
-override "nokogiri", version: aix? ? "1.13.6" : "1.18.4"
+override "nokogiri", version: aix? ? "1.13.6" : "1.18.8"
 override "libxml2", version: "2.13.5"
 override "libxslt", version: "1.1.43"
 # if you need to calculate openssl environment
