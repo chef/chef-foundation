@@ -20,6 +20,8 @@ override "ncurses", version: "6.3"
 override "nokogiri", version: aix? ? "1.13.6" : "1.18.4"
 override "libxml2", version: "2.13.5"
 override "libxslt", version: "1.1.43"
+override "cgi", version: "0.3.7"
+
 # if you need to calculate openssl environment
 openssl_version_default =
   if macos?
