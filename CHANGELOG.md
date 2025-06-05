@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.19 -->
-## [3.2.19](https://github.com/chef/chef-foundation/tree/3.2.19) (2025-05-30)
+<!-- latest_release 3.2.20 -->
+## [3.2.20](https://github.com/chef/chef-foundation/tree/3.2.20) (2025-06-05)
 
 #### Merged Pull Requests
-- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm))
+- update nokogiri to 1.18.4 and libxslt to 1.1.43 [#161](https://github.com/chef/chef-foundation/pull/161) ([rishichawda](https://github.com/rishichawda))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.15 -->
 ### Changes since 3.2.15 release
 
 #### Merged Pull Requests
+- update nokogiri to 1.18.4 and libxslt to 1.1.43 [#161](https://github.com/chef/chef-foundation/pull/161) ([rishichawda](https://github.com/rishichawda)) <!-- 3.2.20 -->
 - Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm)) <!-- 3.2.19 -->
 - Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
 - make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
