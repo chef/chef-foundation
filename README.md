@@ -10,6 +10,7 @@ Currently it supports the same operating systems as the Chef Omnibus project sin
 
 The Chef Foundation package aims to:
 
+
 * Provide chef developers and customers an easier way to reproduce a set of Chef's dependencies on a given platform.
 * Make it easier to test new versions of the Chef executables against a new set of Chef dependencies and new platforms.
 * Reduce build times of Chef's Omnibus package.
