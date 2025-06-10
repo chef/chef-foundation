@@ -32,11 +32,11 @@ env_omnibus_windows_arch = :x86 unless %w{x86 x64}.include?(env_omnibus_windows_
 windows_arch env_omnibus_windows_arch
 
 use_git_caching true
-use_internal_sources ENV.fetch("OMNIBUS_USE_INTERNAL_SOURCES", true)
+use_internal_sources ENV.fetch("OMNIBUS_USE_INTERNAL_SOURCES", false)
 
 # Enable S3 asset caching
 # ------------------------------
-use_s3_caching true
+use_s3_caching false
 s3_access_key  ENV["AWS_ACCESS_KEY_ID"]
 s3_secret_key  ENV["AWS_SECRET_ACCESS_KEY"]
 s3_bucket      "opscode-omnibus-cache"
