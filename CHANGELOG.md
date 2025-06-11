@@ -1,28 +1,25 @@
 # Changelog
 
-<!-- latest_release 3.2.23 -->
-## [3.2.23](https://github.com/chef/chef-foundation/tree/3.2.23) (2025-06-10)
-
-#### Merged Pull Requests
-- Test Version Bump [#164](https://github.com/chef/chef-foundation/pull/164) ([poorndm](https://github.com/poorndm))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.15 -->
-### Changes since 3.2.15 release
-
-#### Merged Pull Requests
-- Test Version Bump [#164](https://github.com/chef/chef-foundation/pull/164) ([poorndm](https://github.com/poorndm)) <!-- 3.2.23 -->
-- update nokogiri to 1.18.8 and libxml2 to 2.13.8 [#162](https://github.com/chef/chef-foundation/pull/162) ([rishichawda](https://github.com/rishichawda)) <!-- 3.2.22 -->
-- pin cgi to 0.3.7 to resolve CVE-2025-27219 and CVE-2025-27220 [#160](https://github.com/chef/chef-foundation/pull/160) ([rishichawda](https://github.com/rishichawda)) <!-- 3.2.21 -->
-- update nokogiri to 1.18.4 and libxslt to 1.1.43 [#161](https://github.com/chef/chef-foundation/pull/161) ([rishichawda](https://github.com/rishichawda)) <!-- 3.2.20 -->
-- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm)) <!-- 3.2.19 -->
-- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm)) <!-- 3.2.18 -->
-- make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh)) <!-- 3.2.17 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
-## [3.2.15](https://github.com/chef/chef-foundation/tree/3.2.15) (2025-05-30)
+## [3.2.23](https://github.com/chef/chef-foundation/tree/3.2.23) (2025-06-11)
+
+#### Merged Pull Requests
+- make pipelines public: verify [#153](https://github.com/chef/chef-foundation/pull/153) ([jaymzh](https://github.com/jaymzh))
+- Add  libcrypt Dependency [#156](https://github.com/chef/chef-foundation/pull/156) ([poorndm](https://github.com/poorndm))
+- Remove libxcrypt dependency [#158](https://github.com/chef/chef-foundation/pull/158) ([poorndm](https://github.com/poorndm))
+- update nokogiri to 1.18.4 and libxslt to 1.1.43 [#161](https://github.com/chef/chef-foundation/pull/161) ([rishichawda](https://github.com/rishichawda))
+- pin cgi to 0.3.7 to resolve CVE-2025-27219 and CVE-2025-27220 [#160](https://github.com/chef/chef-foundation/pull/160) ([rishichawda](https://github.com/rishichawda))
+- update nokogiri to 1.18.8 and libxml2 to 2.13.8 [#162](https://github.com/chef/chef-foundation/pull/162) ([rishichawda](https://github.com/rishichawda))
+- Test Version Bump [#164](https://github.com/chef/chef-foundation/pull/164) ([poorndm](https://github.com/poorndm))
 <!-- latest_stable_release -->
+
+## [3.2.15](https://github.com/chef/chef-foundation/tree/3.2.15) (2025-05-30)
 
 ## [3.2.14](https://github.com/chef/chef-foundation/tree/3.2.14) (2025-05-30)
 
