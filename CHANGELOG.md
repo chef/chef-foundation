@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.24 -->
+## [3.2.24](https://github.com/chef/chef-foundation/tree/3.2.24) (2025-06-25)
+
+#### Merged Pull Requests
+- Add Support for Ubuntu 24.04 [#165](https://github.com/chef/chef-foundation/pull/165) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.23 -->
+### Changes since 3.2.23 release
+
+#### Merged Pull Requests
+- Add Support for Ubuntu 24.04 [#165](https://github.com/chef/chef-foundation/pull/165) ([poorndm](https://github.com/poorndm)) <!-- 3.2.24 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
