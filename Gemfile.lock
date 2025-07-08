@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 07a2cff610667896bf332b650b82062f49f0f483
-  branch: main
+  revision: d881f1b69655c168aa2daa01362898f3b792ea1f
+  branch: sean-simmons-progress/FixUploading
   specs:
     omnibus-software (24.6.324)
       omnibus (>= 9.0.0)
