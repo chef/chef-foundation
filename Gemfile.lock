@@ -167,7 +167,7 @@ GEM
       concurrent-ruby (~> 1.0)
     chef-utils (18.4.12)
       concurrent-ruby
-    chef-win32-api (1.11.0)  
+    chef-win32-api (1.11.0)
     chef-vault (4.1.11)
     chef-zero (15.0.11)
       ffi-yajl (~> 2.2)
@@ -254,7 +254,7 @@ GEM
       tomlrb (>= 1.2, < 3.0)
       tty-box (~> 0.6)
       tty-prompt (~> 0.20)
-    license_scout (1.3.7)
+    license_scout (1.3.18)
       ffi-yajl (~> 2.2)
       mixlib-shellout (>= 2.2, < 4.0)
       toml-rb (>= 1, < 3)
