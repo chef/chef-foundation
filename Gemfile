@@ -8,13 +8,16 @@ gem "artifactory"
 
 gem "pedump"
 
-gem "cookstyle"
-
 # This is to help patch in openssl for Ruby 3.0.x, since Ruby 3.0 uses OpenSSL <3.0
 # unless you build without and reintroduce it manually.
 # Remove once we're no longer supporting Ruby 3.0.x.
 # Also, fips_mode may need it
 gem "openssl", "= 3.2.0"
+
+group :style do
+  # Use Cookstyle for linting Chef code
+  gem "cookstyle", "~> 8.2"
+end
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
