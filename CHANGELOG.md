@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.25 -->
+## [3.2.25](https://github.com/chef/chef-foundation/tree/3.2.25) (2025-07-15)
+
+#### Merged Pull Requests
+- updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.24 -->
+### Changes since 3.2.24 release
+
+#### Merged Pull Requests
+- updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.25 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
