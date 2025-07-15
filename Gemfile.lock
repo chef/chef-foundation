@@ -167,7 +167,7 @@ GEM
       concurrent-ruby (~> 1.0)
     chef-utils (18.4.12)
       concurrent-ruby
-    chef-win32-api (1.11.0)  
+    chef-win32-api (1.11.0)
     chef-vault (4.1.11)
     chef-zero (15.0.11)
       ffi-yajl (~> 2.2)
