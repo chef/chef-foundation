@@ -8,6 +8,7 @@ Currently it supports the same operating systems as the Chef Omnibus project sin
 
 ## Why?
 
+
 The Chef Foundation package aims to:
 
 
