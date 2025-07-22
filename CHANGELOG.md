@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.25 -->
-## [3.2.25](https://github.com/chef/chef-foundation/tree/3.2.25) (2025-07-15)
+<!-- latest_release 3.2.26 -->
+## [3.2.26](https://github.com/chef/chef-foundation/tree/3.2.26) (2025-07-22)
 
 #### Merged Pull Requests
-- updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae))
+- Bump to OpenSSL 3.2.4, OpenSSL FIPS 3.1.2, openssl 3.3.0 [#174](https://github.com/chef/chef-foundation/pull/174) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.24 -->
 ### Changes since 3.2.24 release
 
 #### Merged Pull Requests
+- Bump to OpenSSL 3.2.4, OpenSSL FIPS 3.1.2, openssl 3.3.0 [#174](https://github.com/chef/chef-foundation/pull/174) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.26 -->
 - updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.25 -->
 <!-- release_rollup -->
 
