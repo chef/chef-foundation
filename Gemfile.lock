@@ -8,8 +8,8 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: c885825f1886cfe3d7a2e139e40de1f5b4b91374
-  branch: main
+  revision: bbd497a4861b171712589c022124e98aa84ae66b
+  branch: whitelist-libatomic/muthuja
   specs:
     omnibus (9.1.0)
       aws-sdk-s3 (~> 1.116.0)
