@@ -27,14 +27,14 @@ openssl_version_default =
   if macos?
     "1.1.1m"
   else
-    "3.0.9"
+    "3.2.4"
   end
 
 # set OPENSSL_OVERRIDE variable to a different openssl version to test
 # builds for other versions in omnibus_software
-override "openssl", version: ENV.fetch("OPENSSL_OVERRIDE", openssl_version_default)
+override "openssl", version: ENV.fetch("OPENSSL_OVERRIDE", openssl_version_default), fips_version: "3.1.2"
 override "pkg-config-lite", version: "0.28-1"
-override :ruby, version: aix? ? "3.0.3" : ENV.fetch("RUBY_OVERRIDE", "3.1.6"), openssl_gem: "3.2.0"
+override :ruby, version: aix? ? "3.0.3" : ENV.fetch("RUBY_OVERRIDE", "3.1.6"), openssl_gem: "3.3.0"
 override "mixlib-log", version: aix? ? "3.1.1" : "3.2.0"
 override "ruby-windows-devkit-bash", version: "3.1.23-4-msys-1.0.18"
 override "ruby-msys2-devkit", version: ENV.fetch("MSYS_OVERRIDE", "3.1.6-1")
