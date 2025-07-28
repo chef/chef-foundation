@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus.git
-  revision: f955c3db5e6edf1895a0190c0aa36c08252f8c7f
+  revision: 096079a5b80938d1e051c1d6b4e491c48708291a
   branch: whitelist-libatomic/muthuja
   specs:
     omnibus (9.1.0)
