@@ -1,28 +1,25 @@
 # Changelog
 
-<!-- latest_release 3.2.28 -->
-## [3.2.28](https://github.com/chef/chef-foundation/tree/3.2.28) (2025-07-28)
-
-#### Merged Pull Requests
-- Ruby upgrade 3.1.7  and platform support windows2025 [#176](https://github.com/chef/chef-foundation/pull/176) ([poorndm](https://github.com/poorndm))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.24 -->
-### Changes since 3.2.24 release
-
-#### Merged Pull Requests
-- Ruby upgrade 3.1.7  and platform support windows2025 [#176](https://github.com/chef/chef-foundation/pull/176) ([poorndm](https://github.com/poorndm)) <!-- 3.2.28 -->
-- fix openssl 3.2.4 build [#175](https://github.com/chef/chef-foundation/pull/175) ([muthuja](https://github.com/muthuja)) <!-- 3.2.27 -->
-- Bump to OpenSSL 3.2.4, OpenSSL FIPS 3.1.2, openssl 3.3.0 [#174](https://github.com/chef/chef-foundation/pull/174) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.26 -->
-- updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.25 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.28](https://github.com/chef/chef-foundation/tree/3.2.28) (2025-07-29)
+
+#### Merged Pull Requests
+- updating license scout version [#171](https://github.com/chef/chef-foundation/pull/171) ([johnmccrae](https://github.com/johnmccrae))
+- Bump to OpenSSL 3.2.4, OpenSSL FIPS 3.1.2, openssl 3.3.0 [#174](https://github.com/chef/chef-foundation/pull/174) ([tpowell-progress](https://github.com/tpowell-progress))
+- fix openssl 3.2.4 build [#175](https://github.com/chef/chef-foundation/pull/175) ([muthuja](https://github.com/muthuja))
+- Ruby upgrade 3.1.7  and platform support windows2025 [#176](https://github.com/chef/chef-foundation/pull/176) ([poorndm](https://github.com/poorndm))
+<!-- latest_stable_release -->
+
 ## [3.2.24](https://github.com/chef/chef-foundation/tree/3.2.24) (2025-06-26)
 
 #### Merged Pull Requests
 - Add Support for Ubuntu 24.04 [#165](https://github.com/chef/chef-foundation/pull/165) ([poorndm](https://github.com/poorndm))
-<!-- latest_stable_release -->
 
 ## [3.2.23](https://github.com/chef/chef-foundation/tree/3.2.23) (2025-06-11)
 
