@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 692cba6056f4661336708fea24e79be488264066
+  revision: d3688eca9503fcdbd0461dcdb5103fe3b88af3a5
   branch: main
   specs:
-    omnibus-software (25.7.330)
+    omnibus-software (25.7.332)
       omnibus (>= 9.0.0)
 
 GIT
@@ -269,6 +269,8 @@ GEM
     minitar (0.9)
     mixlib-archive (1.1.7)
       mixlib-log
+    mixlib-archive (1.1.7-universal-mingw32)
+      mixlib-log
     mixlib-authentication (3.0.10)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
@@ -462,7 +464,7 @@ GEM
     vault (0.18.2)
       aws-sigv4
     webrick (1.8.1)
-    win32-api (1.10.1)
+    win32-api (1.10.1-universal-mingw32)
     win32-certstore (0.6.16)
       chef-powershell
       ffi
