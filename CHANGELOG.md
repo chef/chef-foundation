@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.29 -->
+## [3.2.29](https://github.com/chef/chef-foundation/tree/3.2.29) (2025-07-31)
+
+#### Merged Pull Requests
+- updating omnibus-software version [#177](https://github.com/chef/chef-foundation/pull/177) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.28 -->
+### Changes since 3.2.28 release
+
+#### Merged Pull Requests
+- updating omnibus-software version [#177](https://github.com/chef/chef-foundation/pull/177) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.29 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
