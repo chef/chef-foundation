@@ -17,7 +17,7 @@ end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
-override "nokogiri", version: aix? ? "1.13.6" : "1.18.8"
+override "nokogiri", version: aix? ? "1.13.6" : "1.18.9"
 override "libxml2", version: "2.13.8"
 override "libxslt", version: "1.1.43"
 override "cgi", version: "0.3.7"
