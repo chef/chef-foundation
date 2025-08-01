@@ -9,7 +9,9 @@ override "libiconv", version: "1.16"
 override "liblzma", version: "5.2.5"
 override "libtool", version: "2.4.2"
 override "libarchive", version: "3.8.1"
-
+if aix?
+  override "libarchive", version: "3.6.1"
+end
 if solaris?
   # Chef Infra Client failed to install on Solaris V11.4.47 - CHEF-7695
   override :bash, version: "5.1.8"
