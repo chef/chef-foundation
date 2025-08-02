@@ -24,7 +24,7 @@ pipelines:
       env:
         - ADHOC: true
         - IGNORE_CACHE: true
-        - OMNIBUS_USE_INTERNAL_SOURCES: false
+        - OMNIBUS_USE_INTERNAL_SOURCES: true
   - omnibus/adhoc-canary:
       canary: true
       definition: .expeditor/adhoc-canary.omnibus.yml
