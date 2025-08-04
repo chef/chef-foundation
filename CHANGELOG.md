@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.30 -->
-## [3.2.30](https://github.com/chef/chef-foundation/tree/3.2.30) (2025-08-04)
+<!-- latest_release 3.2.31 -->
+## [3.2.31](https://github.com/chef/chef-foundation/tree/3.2.31) (2025-08-04)
 
 #### Merged Pull Requests
-- Bump omnibus-sofware for typeprof removal [#179](https://github.com/chef/chef-foundation/pull/179) ([tpowell-progress](https://github.com/tpowell-progress))
+- Upgarde libarchive - 3.8.1 [#178](https://github.com/chef/chef-foundation/pull/178) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.28 -->
 ### Changes since 3.2.28 release
 
 #### Merged Pull Requests
+- Upgarde libarchive - 3.8.1 [#178](https://github.com/chef/chef-foundation/pull/178) ([poorndm](https://github.com/poorndm)) <!-- 3.2.31 -->
 - Bump omnibus-sofware for typeprof removal [#179](https://github.com/chef/chef-foundation/pull/179) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.30 -->
 - updating omnibus-software version [#177](https://github.com/chef/chef-foundation/pull/177) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.29 -->
 <!-- release_rollup -->
