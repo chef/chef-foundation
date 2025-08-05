@@ -1,22 +1,20 @@
 # Changelog
 
-<!-- latest_release 3.2.31 -->
-## [3.2.31](https://github.com/chef/chef-foundation/tree/3.2.31) (2025-08-04)
-
-#### Merged Pull Requests
-- Upgarde libarchive - 3.8.1 [#178](https://github.com/chef/chef-foundation/pull/178) ([poorndm](https://github.com/poorndm))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.28 -->
-### Changes since 3.2.28 release
-
-#### Merged Pull Requests
-- Upgarde libarchive - 3.8.1 [#178](https://github.com/chef/chef-foundation/pull/178) ([poorndm](https://github.com/poorndm)) <!-- 3.2.31 -->
-- Bump omnibus-sofware for typeprof removal [#179](https://github.com/chef/chef-foundation/pull/179) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.30 -->
-- updating omnibus-software version [#177](https://github.com/chef/chef-foundation/pull/177) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.29 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.31](https://github.com/chef/chef-foundation/tree/3.2.31) (2025-08-05)
+
+#### Merged Pull Requests
+- updating omnibus-software version [#177](https://github.com/chef/chef-foundation/pull/177) ([johnmccrae](https://github.com/johnmccrae))
+- Bump omnibus-sofware for typeprof removal [#179](https://github.com/chef/chef-foundation/pull/179) ([tpowell-progress](https://github.com/tpowell-progress))
+- Upgarde libarchive - 3.8.1 [#178](https://github.com/chef/chef-foundation/pull/178) ([poorndm](https://github.com/poorndm))
+<!-- latest_stable_release -->
+
 ## [3.2.28](https://github.com/chef/chef-foundation/tree/3.2.28) (2025-07-29)
 
 #### Merged Pull Requests
@@ -24,7 +22,6 @@
 - Bump to OpenSSL 3.2.4, OpenSSL FIPS 3.1.2, openssl 3.3.0 [#174](https://github.com/chef/chef-foundation/pull/174) ([tpowell-progress](https://github.com/tpowell-progress))
 - fix openssl 3.2.4 build [#175](https://github.com/chef/chef-foundation/pull/175) ([muthuja](https://github.com/muthuja))
 - Ruby upgrade 3.1.7  and platform support windows2025 [#176](https://github.com/chef/chef-foundation/pull/176) ([poorndm](https://github.com/poorndm))
-<!-- latest_stable_release -->
 
 ## [3.2.24](https://github.com/chef/chef-foundation/tree/3.2.24) (2025-06-26)
 
