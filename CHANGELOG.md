@@ -3,13 +3,15 @@
 <!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.28 -->
-### Changes since 3.2.28 release
+<!-- release_rollup since=3.2.31 -->
+### Changes since 3.2.31 release
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
-## [3.2.28](https://github.com/chef/chef-foundation/tree/3.2.28) (2025-07-29)
+## [3.2.31](https://github.com/chef/chef-foundation/tree/3.2.31) (2025-08-05)
 <!-- latest_stable_release -->
+
+## [3.2.28](https://github.com/chef/chef-foundation/tree/3.2.28) (2025-07-29)
 
 ## [3.2.24](https://github.com/chef/chef-foundation/tree/3.2.24) (2025-06-26)
 
