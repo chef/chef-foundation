@@ -5,4 +5,3 @@ set -eu
 [[ "$BUILDKITE_PIPELINE_NAME" =~ (omnibus/(release|adhoc|adhoc-canary|canary))$ ]] || exit 0
 
 export ARTIFACTORY_REPO_URL="https://artifactory-internal.ps.chef.co/artifactory/omnibus-software-local"
-export AWS_REGION='us-west-2'
