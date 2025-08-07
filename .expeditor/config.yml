@@ -15,7 +15,7 @@ product_key:
 pipelines:
   - verify:
       public: true
-  - omnibus/release:
+  - omnibus/release
       # env:
       #   - IGNORE_CACHE: true
       #   - OMNIBUS_USE_INTERNAL_SOURCES: true
