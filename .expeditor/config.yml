@@ -16,9 +16,9 @@ pipelines:
   - verify:
       public: true
   - omnibus/release:
-      env:
-        - IGNORE_CACHE: true
-        - OMNIBUS_USE_INTERNAL_SOURCES: true
+      # env:
+      #   - IGNORE_CACHE: true
+      #   - OMNIBUS_USE_INTERNAL_SOURCES: true
   - omnibus/adhoc:
       definition: .expeditor/release.omnibus.yml
       env:
