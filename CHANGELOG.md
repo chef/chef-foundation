@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.32 -->
+## [3.2.32](https://github.com/chef/chef-foundation/tree/3.2.32) (2025-08-07)
+
+#### Merged Pull Requests
+- Update for bundled gem removal [#181](https://github.com/chef/chef-foundation/pull/181) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.31 -->
+### Changes since 3.2.31 release
+
+#### Merged Pull Requests
+- Update for bundled gem removal [#181](https://github.com/chef/chef-foundation/pull/181) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.32 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
