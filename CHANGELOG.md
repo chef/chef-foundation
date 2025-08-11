@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.33 -->
+## [3.2.33](https://github.com/chef/chef-foundation/tree/3.2.33) (2025-08-11)
+
+#### Merged Pull Requests
+- omnibus-software bump for rbs -x removal [#183](https://github.com/chef/chef-foundation/pull/183) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.32 -->
+### Changes since 3.2.32 release
+
+#### Merged Pull Requests
+- omnibus-software bump for rbs -x removal [#183](https://github.com/chef/chef-foundation/pull/183) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 3.2.33 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
