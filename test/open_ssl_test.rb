@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
+require "minitest/autorun"
 
 class OpenSSLTest < Minitest::Test
   def aix?
-    RUBY_PLATFORM.include?('aix')
+    RUBY_PLATFORM.include?("aix")
   end
 
   def solaris?
-    RUBY_PLATFORM.include?('solaris')
+    RUBY_PLATFORM.include?("solaris")
   end
 
   def macos?
-    RUBY_PLATFORM.include?('darwin')
+    RUBY_PLATFORM.include?("darwin")
   end
 
   def override(*args, **kwargs)
@@ -21,14 +21,16 @@ class OpenSSLTest < Minitest::Test
   end
 
   def setup
-    eval(File.read(File.join(__dir__.to_s, '../omnibus_overrides.rb')))
+    # rubocop:disable Security/Eval
+    eval(File.read(File.join(__dir__.to_s, "../omnibus_overrides.rb")))
+    # rubocop:enable Security/Eval
   rescue NoMethodError
     puts "If a platform helper is raising an error, it's being used from omnibus_overrides.rb"
   end
 
-  %w(version library_version).each do |method|
+  %w{version library_version}.each do |method|
     define_method "test_#{method}" do
-      assert_match(@overrides['openssl'], OpenSSL.const_get("OPENSSL_#{method.upcase}"))
+      assert_match(@overrides["openssl"], OpenSSL.const_get("OPENSSL_#{method.upcase}"))
     end
   end
 end
