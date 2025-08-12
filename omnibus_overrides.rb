@@ -4,7 +4,13 @@
 #
 # NOTE: You MUST update omnibus-software when adding new versions of
 # software here: bundle exec rake dependencies:update_omnibus_gemfile_lock
-override "libffi", version: "3.4.2"
+# MacOS 15 on arm64 requires newer libffi
+if macos? && platform_version.satisfies?(">=15") && !intel?
+  override "libffi", version: "3.4.7"
+else
+  override "libffi", version: "3.4.2"
+end
+
 override "libiconv", version: "1.16"
 override "liblzma", version: "5.2.5"
 override "libtool", version: "2.4.2"
@@ -42,4 +48,10 @@ override "ruby-windows-devkit-bash", version: "3.1.23-4-msys-1.0.18"
 override "ruby-msys2-devkit", version: ENV.fetch("MSYS_OVERRIDE", "3.1.7-1")
 override "util-macros", version: "1.19.0"
 override "xproto", version: "7.0.28"
-override "zlib", version: "1.2.11"
+
+# MacOS 15 requires newer zlib due to compilation issues
+if macos? && platform_version.satisfies?(">=15")
+  override "zlib", version: "1.3.1"
+else
+  override "zlib", version: "1.2.11"
+end
