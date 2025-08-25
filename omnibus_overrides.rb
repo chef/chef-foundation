@@ -7,7 +7,7 @@
 override "libffi", version: "3.4.2"
 override "libiconv", version: "1.16"
 override "liblzma", version: "5.2.5"
-override "libtool", version: "2.4.2"
+override "libtool", version: "2.4.7"
 override "libarchive", version: "3.8.1"
 if aix?
   override "libarchive", version: "3.6.1"
@@ -18,7 +18,7 @@ if solaris?
 end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
-override "ncurses", version: "6.4"
+override "ncurses", version: "6.3"
 override "nokogiri", version: aix? ? "1.13.6" : "1.18.9"
 override "libxml2", version: "2.13.8"
 override "libxslt", version: "1.1.43"
