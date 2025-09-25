@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.34 -->
+## [3.2.34](https://github.com/chef/chef-foundation/tree/3.2.34) (2025-08-28)
+
+#### Merged Pull Requests
+- Modify internal_source env to fix Mac Intermittent build issue [#184](https://github.com/chef/chef-foundation/pull/184) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.33 -->
+### Changes since 3.2.33 release
+
+#### Merged Pull Requests
+- Modify internal_source env to fix Mac Intermittent build issue [#184](https://github.com/chef/chef-foundation/pull/184) ([poorndm](https://github.com/poorndm)) <!-- 3.2.34 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
