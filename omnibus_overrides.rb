@@ -16,6 +16,10 @@ if solaris?
   # Chef Infra Client failed to install on Solaris V11.4.47 - CHEF-7695
   override :bash, version: "5.1.8"
 end
+# libxml2 version - 2.10.4 fails on freebsd 13 hence pinned to 2.11.7
+if freebsd?
+  override :libxml2, version: "2.11.7"
+end
 override "libyaml", version: "0.1.7"
 override "makedepend", version: "1.0.5"
 override "ncurses", version: "6.3"
