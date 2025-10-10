@@ -4,6 +4,8 @@ gem "omnibus", github: ENV.fetch("OMNIBUS_GITHUB_REPO", "chef/omnibus"), branch:
 
 gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), branch: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_BRANCH", "main")
 
+gem "chef", git: ENV.fetch("CHEF_GIT_REPO", "https://github.com/chef/chef.git"), branch: ENV.fetch("CHEF_GIT_BRANCH", "chef-18")
+
 gem "artifactory"
 
 gem "pedump"
