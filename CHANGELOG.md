@@ -1,26 +1,23 @@
 # Changelog
 
-<!-- latest_release 3.2.35 -->
-## [3.2.35](https://github.com/chef/chef-foundation/tree/3.2.35) (2025-09-25)
-
-#### Merged Pull Requests
-- Update for s3-private-access and windows cert update [#188](https://github.com/chef/chef-foundation/pull/188) ([poorndm](https://github.com/poorndm))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.33 -->
-### Changes since 3.2.33 release
-
-#### Merged Pull Requests
-- Update for s3-private-access and windows cert update [#188](https://github.com/chef/chef-foundation/pull/188) ([poorndm](https://github.com/poorndm)) <!-- 3.2.35 -->
-- Modify internal_source env to fix Mac Intermittent build issue [#184](https://github.com/chef/chef-foundation/pull/184) ([poorndm](https://github.com/poorndm)) <!-- 3.2.34 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.35](https://github.com/chef/chef-foundation/tree/3.2.35) (2025-09-25)
+
+#### Merged Pull Requests
+- Modify internal_source env to fix Mac Intermittent build issue [#184](https://github.com/chef/chef-foundation/pull/184) ([poorndm](https://github.com/poorndm))
+- Update for s3-private-access and windows cert update [#188](https://github.com/chef/chef-foundation/pull/188) ([poorndm](https://github.com/poorndm))
+<!-- latest_stable_release -->
+
 ## [3.2.33](https://github.com/chef/chef-foundation/tree/3.2.33) (2025-08-11)
 
 #### Merged Pull Requests
 - omnibus-software bump for rbs -x removal [#183](https://github.com/chef/chef-foundation/pull/183) ([tpowell-progress](https://github.com/tpowell-progress))
-<!-- latest_stable_release -->
 
 ## [3.2.32](https://github.com/chef/chef-foundation/tree/3.2.32) (2025-08-07)
 
