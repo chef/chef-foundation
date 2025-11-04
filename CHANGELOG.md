@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.36 -->
+## [3.2.36](https://github.com/chef/chef-foundation/tree/3.2.36) (2025-11-04)
+
+#### Merged Pull Requests
+- Deprecate Mac-12 [#193](https://github.com/chef/chef-foundation/pull/193) ([poorndm](https://github.com/poorndm))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.35 -->
+### Changes since 3.2.35 release
+
+#### Merged Pull Requests
+- Deprecate Mac-12 [#193](https://github.com/chef/chef-foundation/pull/193) ([poorndm](https://github.com/poorndm)) <!-- 3.2.36 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
