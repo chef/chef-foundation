@@ -13,10 +13,10 @@ fips-platforms:
   - amazon-2023-*
 windows-64-msystem: UCRT64
 builder-to-testers-map:
-#  aix-7.1-powerpc:  Skip AIX till we fix the s3-private IAM policy issue
-#    - aix-7.1-powerpc
-#    - aix-7.2-powerpc
-#    - aix-7.3-powerpc
+  aix-7.1-powerpc:  
+    - aix-7.1-powerpc
+    - aix-7.2-powerpc
+    - aix-7.3-powerpc
   amazon-2023-aarch64:
     - amazon-2023-aarch64
   amazon-2023-x86_64:
