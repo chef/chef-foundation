@@ -4,6 +4,10 @@ gem "omnibus", github: ENV.fetch("OMNIBUS_GITHUB_REPO", "chef/omnibus"), branch:
 
 gem "omnibus-software", github: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_REPO", "chef/omnibus-software"), branch: ENV.fetch("OMNIBUS_SOFTWARE_GITHUB_BRANCH", "main")
 
+# Explicit constraints to ensure gems come from RubyGems.org, not GitHub
+gem "ohai", "~> 18.2.6"  # Compatible with omnibus 9.1.5 requirement (>= 18.2.6, < 19)
+gem "mixlib-shellout", "~> 3.3.9"  # Force use of RubyGems.org version, not GitHub
+
 gem "artifactory"
 
 gem "pedump"
