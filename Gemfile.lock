@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: ead37053551477d0dd52fd8a411286e7f649c338
+  revision: a94ba5e5bbb1757d4dc05dee16fc26e86e56a218
   branch: main
   specs:
-    omnibus-software (25.11.354)
+    omnibus-software (25.8.340)
       ffi (>= 1.17.0)
       omnibus (>= 9.0.0)
 
@@ -35,19 +35,16 @@ GEM
     artifactory (3.0.15)
     ast (2.4.2)
     awesome_print (1.9.2)
-    aws-eventstream (1.4.0)
-    aws-partitions (1.1190.0)
-    aws-sdk-core (3.239.2)
+    aws-eventstream (1.3.0)
+    aws-partitions (1.937.0)
+    aws-sdk-core (3.196.1)
       aws-eventstream (~> 1, >= 1.3.0)
-      aws-partitions (~> 1, >= 1.992.0)
-      aws-sigv4 (~> 1.9)
-      base64
-      bigdecimal
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.8)
       jmespath (~> 1, >= 1.6.1)
-      logger
-    aws-sdk-kms (1.118.0)
-      aws-sdk-core (~> 3, >= 3.239.1)
-      aws-sigv4 (~> 1.5)
+    aws-sdk-kms (1.82.0)
+      aws-sdk-core (~> 3, >= 3.193.0)
+      aws-sigv4 (~> 1.1)
     aws-sdk-s3 (1.116.0)
       aws-sdk-core (~> 3, >= 3.127.0)
       aws-sdk-kms (~> 1)
@@ -55,9 +52,8 @@ GEM
     aws-sdk-secretsmanager (1.95.0)
       aws-sdk-core (~> 3, >= 3.193.0)
       aws-sigv4 (~> 1.1)
-    aws-sigv4 (1.12.1)
+    aws-sigv4 (1.8.0)
       aws-eventstream (~> 1, >= 1.0.2)
-    base64 (0.3.0)
     bcrypt_pbkdf (1.1.1)
     bcrypt_pbkdf (1.1.1-x64-mingw-ucrt)
     berkshelf (8.0.9)
@@ -245,7 +241,7 @@ GEM
       train-core (~> 3.10)
       tty-prompt (~> 0.17)
       tty-table (~> 0.10)
-    iostruct (0.5.0)
+    iostruct (0.1.2)
     ipaddress (0.8.3)
     iso8601 (0.13.0)
     jmespath (1.6.2)
@@ -263,7 +259,6 @@ GEM
       mixlib-shellout (>= 2.2, < 4.0)
       toml-rb (>= 1, < 3)
     little-plugger (1.1.4)
-    logger (1.7.0)
     logging (2.3.1)
       little-plugger (~> 1.1)
       multi_json (~> 1.14)
@@ -333,9 +328,9 @@ GEM
     parslet (2.0.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    pedump (0.7.3)
+    pedump (0.6.10)
       awesome_print
-      iostruct (>= 0.5.0)
+      iostruct (>= 0.0.4)
       multipart-post (>= 2.0.0)
       rainbow
       zhexdump (>= 0.0.2)
@@ -507,7 +502,7 @@ GEM
       winrm (~> 2.0)
     wisper (2.0.1)
     wmi-lite (1.0.8)
-    zhexdump (0.3.0)
+    zhexdump (0.1.1)
 
 PLATFORMS
   ruby
@@ -518,8 +513,6 @@ DEPENDENCIES
   berkshelf (>= 8.0)
   cookstyle
   kitchen-vagrant (>= 1.3.1)
-  mixlib-shellout (~> 3.3.9)
-  ohai (~> 18.2.6)
   omnibus!
   omnibus-software!
   openssl (= 3.3.0)
