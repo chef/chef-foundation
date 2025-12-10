@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.37 -->
+## [3.2.37](https://github.com/chef/chef-foundation/tree/3.2.37) (2025-12-10)
+
+#### Merged Pull Requests
+- add rhel10 support to chef-foundation [#197](https://github.com/chef/chef-foundation/pull/197) ([muthuja](https://github.com/muthuja))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.36 -->
+### Changes since 3.2.36 release
+
+#### Merged Pull Requests
+- add rhel10 support to chef-foundation [#197](https://github.com/chef/chef-foundation/pull/197) ([muthuja](https://github.com/muthuja)) <!-- 3.2.37 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
