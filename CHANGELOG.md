@@ -1,26 +1,23 @@
 # Changelog
 
-<!-- latest_release 3.2.38 -->
-## [3.2.38](https://github.com/chef/chef-foundation/tree/3.2.38) (2025-12-11)
-
-#### Merged Pull Requests
-- Fix gem dependeny issues/muthuja [#198](https://github.com/chef/chef-foundation/pull/198) ([muthuja](https://github.com/muthuja))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=3.2.36 -->
-### Changes since 3.2.36 release
-
-#### Merged Pull Requests
-- Fix gem dependeny issues/muthuja [#198](https://github.com/chef/chef-foundation/pull/198) ([muthuja](https://github.com/muthuja)) <!-- 3.2.38 -->
-- add rhel10 support to chef-foundation [#197](https://github.com/chef/chef-foundation/pull/197) ([muthuja](https://github.com/muthuja)) <!-- 3.2.37 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.38](https://github.com/chef/chef-foundation/tree/3.2.38) (2025-12-11)
+
+#### Merged Pull Requests
+- add rhel10 support to chef-foundation [#197](https://github.com/chef/chef-foundation/pull/197) ([muthuja](https://github.com/muthuja))
+- Fix gem dependeny issues/muthuja [#198](https://github.com/chef/chef-foundation/pull/198) ([muthuja](https://github.com/muthuja))
+<!-- latest_stable_release -->
+
 ## [3.2.36](https://github.com/chef/chef-foundation/tree/3.2.36) (2025-11-04)
 
 #### Merged Pull Requests
 - Deprecate Mac-12 [#193](https://github.com/chef/chef-foundation/pull/193) ([poorndm](https://github.com/poorndm))
-<!-- latest_stable_release -->
 
 ## [3.2.35](https://github.com/chef/chef-foundation/tree/3.2.35) (2025-09-25)
 
