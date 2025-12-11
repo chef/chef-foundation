@@ -16,8 +16,8 @@ gem "cookstyle"
 # Also, fips_mode may need it
 gem "openssl", "= 3.3.0"
 
-# Ensure mixlib-shellout comes from RubyGems.org, not GitHub repositories
-gem "mixlib-shellout", "~> 3.3.9"
+# Ensure mixlib-shellout comes from RubyGems.org, not GitHub repositories  
+gem "mixlib-shellout", "~> 3.2.7"
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
