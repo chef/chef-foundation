@@ -15,7 +15,7 @@ fi
 
 bundle config --local path vendor/bundle
 bundle config set --local without development
-bundle install --jobs=7 --retry=3
+bundle install --ful-index --jobs=7 --retry=3
 
 echo "+++ bundle exec task"
 bundle exec $@
