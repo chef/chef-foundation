@@ -11,9 +11,9 @@ fips-platforms:
   - windows-*
 windows-64-msystem: UCRT64
 builder-to-testers-map:
-  aix-7.1-powerpc:
-    - aix-7.1-powerpc
-    - aix-7.2-powerpc
+  # aix-7.1-powerpc:
+  #   - aix-7.1-powerpc
+  #   - aix-7.2-powerpc
   amazon-2023-aarch64:
     - amazon-2023-aarch64
   amazon-2023-x86_64:
