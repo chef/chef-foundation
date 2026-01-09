@@ -1,17 +1,31 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.39 -->
+## [3.2.39](https://github.com/chef/chef-foundation/tree/3.2.39) (2026-01-09)
+
+#### Merged Pull Requests
+- Adding support for openssl 3.2.6 [CVE-2025-9230] [#199](https://github.com/chef/chef-foundation/pull/199) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.38 -->
+### Changes since 3.2.38 release
+
+#### Merged Pull Requests
+- Adding support for openssl 3.2.6 [CVE-2025-9230] [#199](https://github.com/chef/chef-foundation/pull/199) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.39 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [3.2.38](https://github.com/chef/chef-foundation/tree/3.2.38) (2025-12-11)
+
+#### Merged Pull Requests
+- add rhel10 support to chef-foundation [#197](https://github.com/chef/chef-foundation/pull/197) ([muthuja](https://github.com/muthuja))
+- Fix gem dependeny issues/muthuja [#198](https://github.com/chef/chef-foundation/pull/198) ([muthuja](https://github.com/muthuja))
+<!-- latest_stable_release -->
+
 ## [3.2.36](https://github.com/chef/chef-foundation/tree/3.2.36) (2025-11-04)
 
 #### Merged Pull Requests
 - Deprecate Mac-12 [#193](https://github.com/chef/chef-foundation/pull/193) ([poorndm](https://github.com/poorndm))
-<!-- latest_stable_release -->
 
 ## [3.2.35](https://github.com/chef/chef-foundation/tree/3.2.35) (2025-09-25)
 
