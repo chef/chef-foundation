@@ -1,16 +1,17 @@
 # Changelog
 
-<!-- latest_release 3.2.39 -->
-## [3.2.39](https://github.com/chef/chef-foundation/tree/3.2.39) (2026-01-09)
+<!-- latest_release 3.2.40 -->
+## [3.2.40](https://github.com/chef/chef-foundation/tree/3.2.40) (2026-01-09)
 
 #### Merged Pull Requests
-- Adding support for openssl 3.2.6 [CVE-2025-9230] [#199](https://github.com/chef/chef-foundation/pull/199) ([johnmccrae](https://github.com/johnmccrae))
+- We need the full index to pull in the correct rest-client bits [#200](https://github.com/chef/chef-foundation/pull/200) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
 <!-- release_rollup since=3.2.38 -->
 ### Changes since 3.2.38 release
 
 #### Merged Pull Requests
+- We need the full index to pull in the correct rest-client bits [#200](https://github.com/chef/chef-foundation/pull/200) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.40 -->
 - Adding support for openssl 3.2.6 [CVE-2025-9230] [#199](https://github.com/chef/chef-foundation/pull/199) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.39 -->
 <!-- release_rollup -->
 
