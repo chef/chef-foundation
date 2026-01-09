@@ -59,7 +59,7 @@ fi
 
 if [ "$OMNIBUS_FIPS_MODE" = "true" ]
 then
-  "$EMBEDDED_BIN_DIR/bundle" install --full-index --jobs=2 --retry=3
+  "$EMBEDDED_BIN_DIR/bundle" install --jobs=2 --retry=3
 
   echo "the ruby we _expect_ to be using"
   echo "--------------------------------"
