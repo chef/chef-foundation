@@ -224,7 +224,7 @@ GEM
       builder (>= 2.1.2)
       rexml (~> 3.0)
     hashie (5.0.0)
-    http-accept (2.1.1)
+    http-accept (1.7.0)
     http-cookie (1.1.0)
       domain_name (~> 0.5)
     httpclient (2.9.0)
@@ -373,8 +373,7 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rest-client (2.1.0)
-      ffi (>= 1.15.5, <= 1.16.3)
-      http-accept (~> 2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -548,6 +547,7 @@ DEPENDENCIES
   artifactory
   berkshelf (>= 8.0)
   cookstyle
+  http-accept (~> 1.7, < 2.0)
   kitchen-vagrant (>= 1.3.1)
   mixlib-shellout (~> 3.2.7)
   omnibus!
