@@ -22,7 +22,7 @@ gem "mixlib-shellout", "~> 3.2.7"
 gem 'http-accept', '~> 1.7', '< 2.0'
 
 # Ensure we use a version of rack that does not have CVE vulnerabilities (avoid 3.2.5)
-gem "rack", ">= 3.2.6"
+gem "rack", "~> 3.2.6"
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
