@@ -1,9 +1,17 @@
 # Changelog
 
-<!-- latest_release -->
+<!-- latest_release 3.2.42 -->
+## [3.2.42](https://github.com/chef/chef-foundation/tree/3.2.42) (2026-05-29)
+
+#### Merged Pull Requests
+- [CVE] Updating Rack [#204](https://github.com/chef/chef-foundation/pull/204) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=3.2.41 -->
+### Changes since 3.2.41 release
+
+#### Merged Pull Requests
+- [CVE] Updating Rack [#204](https://github.com/chef/chef-foundation/pull/204) ([johnmccrae](https://github.com/johnmccrae)) <!-- 3.2.42 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
