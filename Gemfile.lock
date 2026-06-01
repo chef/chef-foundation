@@ -364,7 +364,7 @@ GEM
       reline (>= 0.6.0)
     public_suffix (6.0.2)
     racc (1.7.3)
-    rack (3.2.6)
+    rack (3.2.4)
     rackup (2.3.1)
       rack (>= 3)
     rainbow (3.1.1)
@@ -554,7 +554,6 @@ DEPENDENCIES
   omnibus-software!
   openssl (= 3.3.0)
   pedump
-  rack (>= 3.2.6)
   rake
   test-kitchen (>= 1.23, < 3.6)
   winrm-fs (~> 1.0)
