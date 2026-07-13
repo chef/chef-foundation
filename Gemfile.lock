@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 2799d14cecc59c6a351c5cba3761c01fff9a65a7
-  branch: main
+  revision: eff723da17cc8a451364616ed4960fd1c9c67543
+  branch: jfm/add-openssl-3.5.6
   specs:
     omnibus-software (26.1.360)
       omnibus (>= 9.0.0)
